@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Community_Domain_URL</fullName>
+        <categories>SA CME</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Community Domain URL</shortDescription>
+        <value>https://uat-myportal.aus4s.sfdc-vwfla6.force.com/</value>
+    </labels>
+    <labels>
+        <fullName>Org_Domain_URL</fullName>
+        <categories>SA CME</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Org Domain URL</shortDescription>
+        <value>https://ds971592--uat.lightning.force.com/lightning/</value>
+    </labels>
+    <labels>
+        <fullName>Referral_Creation_EmailId</fullName>
+        <categories>SA CME</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Referral Creation EmailId</shortDescription>
+        <value>Marc.Currie@sa.gov.au</value>
+    </labels>
+    <labels>
+        <fullName>Referral_Record_Type_Name</fullName>
+        <categories>SA CME</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Referral Record Type Name</shortDescription>
+        <value>Referral_Management_Plan</value>
+    </labels>
+    <labels>
+        <fullName>Significant_Other_Error</fullName>
+        <categories>SA CME</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Significant Other Error</shortDescription>
+        <value>We can have only one primary contact. Please see the existing record</value>
+    </labels>
+</CustomLabels>

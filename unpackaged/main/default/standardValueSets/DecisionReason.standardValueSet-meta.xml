@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Date of Service Not Within Allowable Period</fullName>
+        <default>false</default>
+        <label>Date of Service Not Within Allowable Period</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Required Data Missing</fullName>
+        <default>false</default>
+        <label>Required Data Missing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Member Not Found</fullName>
+        <default>false</default>
+        <label>Member Not Found</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Level of Care Not Appropriate</fullName>
+        <default>false</default>
+        <label>Level of Care Not Appropriate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Duplicate Request</fullName>
+        <default>false</default>
+        <label>Duplicate Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Found to be Medically Necessary</fullName>
+        <default>false</default>
+        <label>Not Found to be Medically Necessary</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Step Therapy Not Attempted</fullName>
+        <default>false</default>
+        <label>Step Therapy Not Attempted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Quantity Limit</fullName>
+        <default>false</default>
+        <label>Quantity Limit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Non-Formulary</fullName>
+        <default>false</default>
+        <label>Non-Formulary</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Off-Label or Unapproved Use</fullName>
+        <default>false</default>
+        <label>Off-Label or Unapproved Use</label>
+    </standardValue>
+</StandardValueSet>

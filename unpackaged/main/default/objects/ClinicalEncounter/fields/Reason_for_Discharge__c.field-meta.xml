@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_Discharge__c</fullName>
+    <externalId>false</externalId>
+    <label>Reason for Discharge</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Required - Problem Resolved</fullName>
+                <default>false</default>
+                <label>Not Required - Problem Resolved</label>
+            </value>
+            <value>
+                <fullName>Not Required - In Residential Care</fullName>
+                <default>false</default>
+                <label>Not Required - In Residential Care</label>
+            </value>
+            <value>
+                <fullName>Referred to Other Residential Care</fullName>
+                <default>false</default>
+                <label>Referred to Other Residential Care</label>
+            </value>
+            <value>
+                <fullName>Client Moved out of Area</fullName>
+                <default>false</default>
+                <label>Client Moved out of Area</label>
+            </value>
+            <value>
+                <fullName>Client Died</fullName>
+                <default>false</default>
+                <label>Client Died</label>
+            </value>
+            <value>
+                <fullName>Client Terminated Service</fullName>
+                <default>false</default>
+                <label>Client Terminated Service</label>
+            </value>
+            <value>
+                <fullName>Discharge/Transfer to another Service</fullName>
+                <default>false</default>
+                <label>Discharge/Transfer to another Service</label>
+            </value>
+            <value>
+                <fullName>Episode Integration</fullName>
+                <default>false</default>
+                <label>Episode Integration</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

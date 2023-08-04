@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Avg_Systolic_Blood_Pressure__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(NOT(ISBLANK(Xst_Blood_Pressure_Systolic_mmHg__c  )) &amp;&amp; NOT(ISBLANK(Xnd_Blood_Pressure_Systolic_mmHg__c)),(Xst_Blood_Pressure_Systolic_mmHg__c +Xnd_Blood_Pressure_Systolic_mmHg__c)/2,
+IF(NOT(ISBLANK(Xst_Blood_Pressure_Systolic_mmHg__c)) &amp;&amp; ISBLANK(Xnd_Blood_Pressure_Systolic_mmHg__c), Xst_Blood_Pressure_Systolic_mmHg__c ,0))</formula>
+    <label>Avg Systolic Blood Pressure</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

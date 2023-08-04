@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Blood_Sugar_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(RecordType.DeveloperName == &#39;Physical_Health_Assessment&#39;,
+				NOT(ISBLANK( Random_BGL_mmoll__c )),
+				OR(
+				Random_BGL_mmoll__c &lt; 1 ,Random_BGL_mmoll__c &gt; 40))</errorConditionFormula>
+    <errorDisplayField>Random_BGL_mmoll__c</errorDisplayField>
+    <errorMessage>Random BGL should be from 1.00 to 40.00.</errorMessage>
+</ValidationRule>

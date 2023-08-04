@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Waist_Circumference_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(RecordType.DeveloperName == &#39;Physical_Health_Assessment&#39;,
+				NOT(ISBLANK(Waist_Circumference_cm__c)),
+				OR(Waist_Circumference_cm__c &lt;= 0 ,Waist_Circumference_cm__c &gt; 200))</errorConditionFormula>
+    <errorDisplayField>Waist_Circumference_cm__c</errorDisplayField>
+    <errorMessage>Waist Circumference should be between 0.0 to 200.0</errorMessage>
+</ValidationRule>

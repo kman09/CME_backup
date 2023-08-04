@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Lives with --></label>
+        <name>Lives_with__c</name>
+        <picklistValues>
+            <masterLabel>DCP Care Arrangement</masterLabel>
+            <translation><!-- DCP Care Arrangement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Father alone</masterLabel>
+            <translation><!-- Father alone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Father and StepMother/defacto/other</masterLabel>
+            <translation><!-- Father and StepMother/defacto/other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foster parents</masterLabel>
+            <translation><!-- Foster parents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Independent</masterLabel>
+            <translation><!-- Independent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Institution</masterLabel>
+            <translation><!-- Institution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mother alone</masterLabel>
+            <translation><!-- Mother alone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mother and Stepfather/defacto/other</masterLabel>
+            <translation><!-- Mother and Stepfather/defacto/other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relatives</masterLabel>
+            <translation><!-- Relatives --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Two adoptive parents</masterLabel>
+            <translation><!-- Two adoptive parents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Two biological parents</masterLabel>
+            <translation><!-- Two biological parents --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

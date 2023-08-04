@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>CareGap Layout</layout>
+        <sections>
+            <label>Custom Links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Fields</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CarePlan Layout</layout>
+        <sections>
+            <label>Custom Links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Referral Management Plan Layout</layout>
+        <sections>
+            <label><!-- Deferral Details --></label>
+            <section>Deferral Details</section>
+        </sections>
+        <sections>
+            <label><!-- External Referral Details --></label>
+            <section>External Referral Details</section>
+        </sections>
+        <sections>
+            <label><!-- Internal Team Details --></label>
+            <section>Internal Team Details</section>
+        </sections>
+        <sections>
+            <label><!-- Referral Actions Details --></label>
+            <section>Referral Actions Details</section>
+        </sections>
+        <sections>
+            <label><!-- Referral To Details --></label>
+            <section>Referral To Details</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Change Priority --></label>
+        <name>Change_Priority</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Close the Case --></label>
+        <name>Close_the_Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewChildCase --></label>
+        <name>NewChildCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send Email --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SocialPublisher --></label>
+        <name>SocialPublisher</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Referral Management Plan --></label>
+        <name>Referral_Management_Plan</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please provide Accepted/Not Accepted Comments, Referee Advised --></errorMessage>
+        <name>Referral_Accepted_No</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide Accepted/ Not Accepted Comments, Accepted Team, and Episode. --></errorMessage>
+        <name>Referral_Accepted_Yes</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide Reason for Deferral --></errorMessage>
+        <name>Referral_Deferred_Yes</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide Date on Referral, Referral Details and Referral Source. --></errorMessage>
+        <name>Referral_Type_External</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide Referral Team From --></errorMessage>
+        <name>Referral_Type_Internal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The first team always must be FMC Marion Intake. --></errorMessage>
+        <name>Team_Referral_To_First_Must_Be_Marion</name>
+    </validationRules>
+</CustomObjectTranslation>

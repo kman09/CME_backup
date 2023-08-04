@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Portal_View</fullName>
+    <columns>NAME</columns>
+    <columns>Participation_Status__c</columns>
+    <columns>Mode__c</columns>
+    <columns>BPD_Co_Worker_Present__c</columns>
+    <columns>Contact_Date_Time__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>UPDATEDBY_USER</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service__c.Education_Information</value>
+    </filters>
+    <filters>
+        <field>Is_Draft__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Client Portal View</label>
+</ListView>

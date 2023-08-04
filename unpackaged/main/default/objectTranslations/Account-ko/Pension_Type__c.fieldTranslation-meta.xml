@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Pension Type --></label>
+        <name>Pension_Type__c</name>
+        <picklistValues>
+            <masterLabel>Aged Pension</masterLabel>
+            <translation><!-- Aged Pension --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Child related</masterLabel>
+            <translation><!-- Child related --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disabililty Pension</masterLabel>
+            <translation><!-- Disabililty Pension --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unemployment</masterLabel>
+            <translation><!-- Unemployment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

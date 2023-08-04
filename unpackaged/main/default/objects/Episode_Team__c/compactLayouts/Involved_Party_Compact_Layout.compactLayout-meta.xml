@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Involved_Party_Compact_Layout</fullName>
+    <fields>Episode__c</fields>
+    <label>Involved Party Compact Layout</label>
+</CompactLayout>

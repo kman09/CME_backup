@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bushfire Action Plan</fullName>
+                <default>false</default>
+                <label>Bushfire Action Plan</label>
+            </value>
+            <value>
+                <fullName>CAMHS Connect Referral</fullName>
+                <default>false</default>
+                <label>CAMHS Connect Referral</label>
+            </value>
+            <value>
+                <fullName>CAMHS Consumer Care Plan</fullName>
+                <default>false</default>
+                <label>CAMHS Consumer Care Plan</label>
+            </value>
+            <value>
+                <fullName>Client of Interest</fullName>
+                <default>false</default>
+                <label>Client of Interest</label>
+            </value>
+            <value>
+                <fullName>COVID-19 Test Result</fullName>
+                <default>false</default>
+                <label>COVID-19 Test Result</label>
+            </value>
+            <value>
+                <fullName>Discharge Summary</fullName>
+                <default>false</default>
+                <label>Discharge Summary</label>
+            </value>
+            <value>
+                <fullName>Discipline Specific Document</fullName>
+                <default>false</default>
+                <label>Discipline Specific Document</label>
+            </value>
+            <value>
+                <fullName>Exclusion Map</fullName>
+                <default>false</default>
+                <label>Exclusion Map</label>
+            </value>
+            <value>
+                <fullName>Falls Assessment</fullName>
+                <default>false</default>
+                <label>Falls Assessment</label>
+            </value>
+            <value>
+                <fullName>Genogram</fullName>
+                <default>false</default>
+                <label>Genogram</label>
+            </value>
+            <value>
+                <fullName>GP Physical Health Assessment</fullName>
+                <default>false</default>
+                <label>GP Physical Health Assessment</label>
+            </value>
+            <value>
+                <fullName>Influenza Test Result</fullName>
+                <default>false</default>
+                <label>Influenza Test Result</label>
+            </value>
+            <value>
+                <fullName>MAPS Document</fullName>
+                <default>false</default>
+                <label>MAPS Document</label>
+            </value>
+            <value>
+                <fullName>Medicines List</fullName>
+                <default>false</default>
+                <label>Medicines List</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other Pathogen Test Result</fullName>
+                <default>false</default>
+                <label>Other Pathogen Test Result</label>
+            </value>
+            <value>
+                <fullName>Protocol / Management Document</fullName>
+                <default>false</default>
+                <label>Protocol / Management Document</label>
+            </value>
+            <value>
+                <fullName>Referral Document</fullName>
+                <default>false</default>
+                <label>Referral Document</label>
+            </value>
+            <value>
+                <fullName>SACAT Document</fullName>
+                <default>false</default>
+                <label>SACAT Document</label>
+            </value>
+            <value>
+                <fullName>Triage Document</fullName>
+                <default>false</default>
+                <label>Triage Document</label>
+            </value>
+            <value>
+                <fullName>User Access Form</fullName>
+                <default>false</default>
+                <label>User Access Form</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

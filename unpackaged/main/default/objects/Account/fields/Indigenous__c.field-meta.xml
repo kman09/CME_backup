@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Indigenous__c</fullName>
+    <externalId>false</externalId>
+    <label>Indigenous</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aboriginal</fullName>
+                <default>false</default>
+                <label>Aboriginal</label>
+            </value>
+            <value>
+                <fullName>Aboriginal &amp;TSI</fullName>
+                <default>false</default>
+                <label>Aboriginal &amp;TSI</label>
+            </value>
+            <value>
+                <fullName>TSI only</fullName>
+                <default>false</default>
+                <label>TSI only</label>
+            </value>
+            <value>
+                <fullName>Neither</fullName>
+                <default>false</default>
+                <label>Neither</label>
+            </value>
+            <value>
+                <fullName>Don&#39;t Know</fullName>
+                <default>false</default>
+                <label>Don&#39;t Know</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

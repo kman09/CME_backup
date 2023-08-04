@@ -1,0 +1,107 @@
+<template>
+    <lightning-card
+            variant="Narrow"
+            title="Assessment">
+        <!-- <lightning-button-icon
+                icon-name="utility:down"
+                variant="border-filled"
+                alternative-text="Show More"
+                slot="actions"
+                ></lightning-button-icon> -->
+
+        <!-- Content -->
+        <div class="slds-p-horizontal_small">
+
+            <!-- Consent -->
+            <div if:true={showConsent}>
+                <div class="slds-grid">
+                    <div class="slds-col">
+                        <header><h1>Consent for Sharing Information</h1></header>
+                    </div>
+                </div>
+
+                <div class="slds-grid slds-size_1-of-4">
+                    <table>
+                        <tr>
+                            <th>
+                                Surname
+                            </th>
+                            <td>
+                                Appleseed
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                Given Name
+                            </th>
+                            <td>
+                                John
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                Date of Birth
+                            </th>
+                            <td>
+                                15/7/1980
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                Sex
+                            </th>
+                            <td>
+                                Male
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="slds-section slds-is-open">
+                    <h3 class="slds-section__title">
+                        <span class="slds-truncate" title="Section Title">Consent to Share Information</span>
+                    </h3>
+                    <div aria-hidden="false" class="slds-section__content" id="expando-unique-id">
+                        <lightning-input type="checkbox" label="I understand what information will be shared, why it will be shared
+                        and with whom it will be shared. And I consent to the information being shared." name="input1"></lightning-input>
+                    </div>
+                  </div>
+            </div>
+            <!-- Consent -->
+
+            <!-- Obligations -->
+            <div if:true={showObligations}>
+            </div>
+            <!-- Obligations -->
+
+            <!-- Question 1 -->
+            <div if:true={showQuestion1}>
+            </div>
+            <!-- Question 1 -->
+
+        </div>
+        <!-- Content -->
+
+        <!-- Footer -->
+        <div slot="footer">
+            <lightning-progress-indicator current-step={currentStep}>
+                <lightning-progress-step
+                        value="consent"
+                        ></lightning-progress-step>
+                <lightning-progress-step
+                        value="obligations"
+                        ></lightning-progress-step>
+                <lightning-progress-step
+                        value="question1"
+                        ></lightning-progress-step>
+            </lightning-progress-indicator>
+            <div style="text-align: center;">
+                <lightning-button variant="brand" label="Prev" title="Previous" onclick={handlePrevious} class="slds-m-left_x-small" if:true={showPrevious}></lightning-button>
+                <lightning-button variant="brand" label="Next" title="Next" onclick={handleNext} class="slds-m-left_x-small" if:true={showNext}></lightning-button>
+                <lightning-button variant="brand" label="Submit" title="Submit" onclick={handleSubmit} class="slds-m-left_x-small" if:true={showSubmit}></lightning-button>
+            </div>
+        </div>
+        <!-- Footer -->
+
+    </lightning-card>
+</template>

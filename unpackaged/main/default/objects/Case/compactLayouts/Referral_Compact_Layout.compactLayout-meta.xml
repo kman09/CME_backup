@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referral_Compact_Layout</fullName>
+    <fields>CaseNumber</fields>
+    <fields>ContactId</fields>
+    <fields>Client_No__c</fields>
+    <fields>Client_Status__c</fields>
+    <label>Referral Compact Layout</label>
+</CompactLayout>

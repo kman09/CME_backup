@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Oxygen_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(RecordType.DeveloperName == &#39;Physical_Health_Assessment&#39;,
+				NOT(ISBLANK(  SaO2__c  )),
+				OR(
+				SaO2__c &lt; 0.85 ,SaO2__c &gt; 1))</errorConditionFormula>
+    <errorDisplayField>SaO2__c</errorDisplayField>
+    <errorMessage>SaO2% should be from 85.00 to 100.00.</errorMessage>
+</ValidationRule>

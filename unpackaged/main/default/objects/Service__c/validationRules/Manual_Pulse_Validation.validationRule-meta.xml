@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manual_Pulse_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(RecordType.DeveloperName == &#39;Physical_Health_Assessment&#39;,
+				NOT(ISBLANK(Manual_Pulse__c)),
+				OR(Manual_Pulse__c &lt;= 0 ,Manual_Pulse__c &gt; 500))</errorConditionFormula>
+    <errorDisplayField>Manual_Pulse__c</errorDisplayField>
+    <errorMessage>Manual Pulse should be between 0 to 500.</errorMessage>
+</ValidationRule>

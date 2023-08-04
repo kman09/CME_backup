@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Agency --></label>
+        <name>Agency_Revocation__c</name>
+        <picklistValues>
+            <masterLabel>APY Lands (Pending relocation)</masterLabel>
+            <translation><!-- APY Lands (Pending relocation) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BHFLHN</masterLabel>
+            <translation><!-- BHFLHN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CALHN</masterLabel>
+            <translation><!-- CALHN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHSALHN</masterLabel>
+            <translation><!-- CHSALHN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DASSA</masterLabel>
+            <translation><!-- DASSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dept. of Human Services</masterLabel>
+            <translation><!-- Dept. of Human Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EFNLHN</masterLabel>
+            <translation><!-- EFNLHN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FUNLHN</masterLabel>
+            <translation><!-- FUNLHN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GP CLINIC</masterLabel>
+            <translation><!-- GP CLINIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LCLHN</masterLabel>
+            <translation><!-- LCLHN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NALHN</masterLabel>
+            <translation><!-- NALHN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NGO</masterLabel>
+            <translation><!-- NGO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRISONS</masterLabel>
+            <translation><!-- PRISONS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVATE HOSPITALS</masterLabel>
+            <translation><!-- PRIVATE HOSPITALS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RAMSAY</masterLabel>
+            <translation><!-- RAMSAY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMCLHN</masterLabel>
+            <translation><!-- RMCLHN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Health</masterLabel>
+            <translation><!-- SA Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SACAT</masterLabel>
+            <translation><!-- SACAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SALHN</masterLabel>
+            <translation><!-- SALHN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCHN</masterLabel>
+            <translation><!-- WCHN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y&amp;NLHN</masterLabel>
+            <translation><!-- Y&amp;NLHN --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

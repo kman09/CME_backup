@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- 2nd Blood Pressure Diastolic (mmHg) --></label>
+        <name>X2nd_Blood_Pressure_Diastolic_mmHg__c</name>
+    </CustomFieldTranslation>

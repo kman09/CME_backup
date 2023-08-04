@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lives_with__c</fullName>
+    <externalId>false</externalId>
+    <label>Lives with</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Two biological parents</fullName>
+                <default>false</default>
+                <label>Two biological parents</label>
+            </value>
+            <value>
+                <fullName>Two adoptive parents</fullName>
+                <default>false</default>
+                <label>Two adoptive parents</label>
+            </value>
+            <value>
+                <fullName>Mother and Stepfather/defacto/other</fullName>
+                <default>false</default>
+                <label>Mother and Stepfather/defacto/other</label>
+            </value>
+            <value>
+                <fullName>Father and StepMother/defacto/other</fullName>
+                <default>false</default>
+                <label>Father and StepMother/defacto/other</label>
+            </value>
+            <value>
+                <fullName>Mother alone</fullName>
+                <default>false</default>
+                <label>Mother alone</label>
+            </value>
+            <value>
+                <fullName>Father alone</fullName>
+                <default>false</default>
+                <label>Father alone</label>
+            </value>
+            <value>
+                <fullName>Relatives</fullName>
+                <default>false</default>
+                <label>Relatives</label>
+            </value>
+            <value>
+                <fullName>Foster parents</fullName>
+                <default>false</default>
+                <label>Foster parents</label>
+            </value>
+            <value>
+                <fullName>Institution</fullName>
+                <default>false</default>
+                <label>Institution</label>
+            </value>
+            <value>
+                <fullName>Independent</fullName>
+                <default>false</default>
+                <label>Independent</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>DCP Care Arrangement</fullName>
+                <default>false</default>
+                <label>DCP Care Arrangement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

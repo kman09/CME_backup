@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Location Of Contact --></label>
+        <name>Location_Of_Contact__c</name>
+        <picklistValues>
+            <masterLabel>Clinic</masterLabel>
+            <translation><!-- Clinic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Court</masterLabel>
+            <translation><!-- Court --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dwelling</masterLabel>
+            <translation><!-- Dwelling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ED</masterLabel>
+            <translation><!-- ED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inpat/ICC/CRC</masterLabel>
+            <translation><!-- Inpat/ICC/CRC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal Custody</masterLabel>
+            <translation><!-- Legal Custody --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>School</masterLabel>
+            <translation><!-- School --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

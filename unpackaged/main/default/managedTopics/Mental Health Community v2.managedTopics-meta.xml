@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
+    <managedTopic>
+        <fullName>Mental Health Community v2.Content:FAQ</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>FAQ</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Mental Health Community v2.Content:MENTAL HEALTH</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>MENTAL HEALTH</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Mental Health Community v2.Content:My FAQ</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>My FAQ</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Mental Health Community v2.Content:My Health</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>My Health</name>
+        <parentName></parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Mental Health Community v2.Navigational:FAQ</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>FAQ</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Mental Health Community v2.Navigational:MENTAL HEALTH</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>MENTAL HEALTH</name>
+        <parentName></parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Mental Health Community v2.Navigational:My FAQ</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>My FAQ</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Mental Health Community v2.Navigational:My Health</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>My Health</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+</ManagedTopics>

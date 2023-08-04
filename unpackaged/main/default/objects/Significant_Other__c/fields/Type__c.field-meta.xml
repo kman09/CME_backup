@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Son</fullName>
+                <default>false</default>
+                <label>Son</label>
+            </value>
+            <value>
+                <fullName>Guardianship Care and Protection Order</fullName>
+                <default>false</default>
+                <label>Guardianship Care and Protection Order</label>
+            </value>
+            <value>
+                <fullName>Former partner or Ex partner</fullName>
+                <default>false</default>
+                <label>Former partner or Ex partner</label>
+            </value>
+            <value>
+                <fullName>Stepfather</fullName>
+                <default>false</default>
+                <label>Stepfather</label>
+            </value>
+            <value>
+                <fullName>Stepmother</fullName>
+                <default>false</default>
+                <label>Stepmother</label>
+            </value>
+            <value>
+                <fullName>Brother-in-law</fullName>
+                <default>false</default>
+                <label>Brother-in-law</label>
+            </value>
+            <value>
+                <fullName>Sister-in-law</fullName>
+                <default>false</default>
+                <label>Sister-in-law</label>
+            </value>
+            <value>
+                <fullName>Brother</fullName>
+                <default>false</default>
+                <label>Brother</label>
+            </value>
+            <value>
+                <fullName>Sister</fullName>
+                <default>false</default>
+                <label>Sister</label>
+            </value>
+            <value>
+                <fullName>Uncle</fullName>
+                <default>false</default>
+                <label>Uncle</label>
+            </value>
+            <value>
+                <fullName>Aunt</fullName>
+                <default>false</default>
+                <label>Aunt</label>
+            </value>
+            <value>
+                <fullName>Grandfather</fullName>
+                <default>false</default>
+                <label>Grandfather</label>
+            </value>
+            <value>
+                <fullName>Grandmother</fullName>
+                <default>false</default>
+                <label>Grandmother</label>
+            </value>
+            <value>
+                <fullName>Foster Father</fullName>
+                <default>false</default>
+                <label>Foster Father</label>
+            </value>
+            <value>
+                <fullName>Foster Mother</fullName>
+                <default>false</default>
+                <label>Foster Mother</label>
+            </value>
+            <value>
+                <fullName>Friend/Neighbour - male</fullName>
+                <default>false</default>
+                <label>Friend/Neighbour - male</label>
+            </value>
+            <value>
+                <fullName>Friend/Neighbour - female</fullName>
+                <default>false</default>
+                <label>Friend/Neighbour - female</label>
+            </value>
+            <value>
+                <fullName>Other relative - male - not listed elsewhere</fullName>
+                <default>false</default>
+                <label>Other relative - male - not listed elsewhere</label>
+            </value>
+            <value>
+                <fullName>Other relative - female - not listed elsewhere</fullName>
+                <default>false</default>
+                <label>Other relative - female - not listed elsewhere</label>
+            </value>
+            <value>
+                <fullName>Son-in-Law</fullName>
+                <default>false</default>
+                <label>Son-in-Law</label>
+            </value>
+            <value>
+                <fullName>Daughter-in-Law</fullName>
+                <default>false</default>
+                <label>Daughter-in-Law</label>
+            </value>
+            <value>
+                <fullName>Daughter</fullName>
+                <default>false</default>
+                <label>Daughter</label>
+            </value>
+            <value>
+                <fullName>Father</fullName>
+                <default>false</default>
+                <label>Father</label>
+            </value>
+            <value>
+                <fullName>Mother</fullName>
+                <default>false</default>
+                <label>Mother</label>
+            </value>
+            <value>
+                <fullName>Husband/Male Partner</fullName>
+                <default>false</default>
+                <label>Husband/Male Partner</label>
+            </value>
+            <value>
+                <fullName>Wife/Female Partner</fullName>
+                <default>false</default>
+                <label>Wife/Female Partner</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACD_Substitute_Decision_Maker</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ACD_Substitute_Decision_Maker__c == true ,
+Person_Responsible__c == true)</errorConditionFormula>
+    <errorDisplayField>ACD_Substitute_Decision_Maker__c</errorDisplayField>
+    <errorMessage>Both the ACD Substitute decision maker or Person responsible is true. Only one can be true.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Facility / Service --></label>
+        <name>Facility_Service_Revocation__c</name>
+        <picklistValues>
+            <masterLabel>AP Indulkana</masterLabel>
+            <translation><!-- AP Indulkana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AP Pukatja</masterLabel>
+            <translation><!-- AP Pukatja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BH Angaston</masterLabel>
+            <translation><!-- BH Angaston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BH Eudunda</masterLabel>
+            <translation><!-- BH Eudunda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BH Gawler</masterLabel>
+            <translation><!-- BH Gawler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BH Glenside R&amp;R</masterLabel>
+            <translation><!-- BH Glenside R&amp;R --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BH Gumeracha</masterLabel>
+            <translation><!-- BH Gumeracha --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BH Kangaroo Island</masterLabel>
+            <translation><!-- BH Kangaroo Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BH Kapunda</masterLabel>
+            <translation><!-- BH Kapunda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BH Mt Barker</masterLabel>
+            <translation><!-- BH Mt Barker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BH Mt Pleasant</masterLabel>
+            <translation><!-- BH Mt Pleasant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BH Sth Coast District</masterLabel>
+            <translation><!-- BH Sth Coast District --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BH Strathalbyn</masterLabel>
+            <translation><!-- BH Strathalbyn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BH Tanunda</masterLabel>
+            <translation><!-- BH Tanunda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CH Country Health</masterLabel>
+            <translation><!-- CH Country Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CN ECMHS</masterLabel>
+            <translation><!-- CN ECMHS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CN EOPMHS</masterLabel>
+            <translation><!-- CN EOPMHS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CN Glenside</masterLabel>
+            <translation><!-- CN Glenside --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CN RAH</masterLabel>
+            <translation><!-- CN RAH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CN TQED</masterLabel>
+            <translation><!-- CN TQED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CN TQEH</masterLabel>
+            <translation><!-- CN TQEH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CN WCMHS</masterLabel>
+            <translation><!-- CN WCMHS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CN WICC</masterLabel>
+            <translation><!-- CN WICC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CN WOPMHS</masterLabel>
+            <translation><!-- CN WOPMHS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DA DASSA</masterLabel>
+            <translation><!-- DA DASSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EF Ceduna</masterLabel>
+            <translation><!-- EF Ceduna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EF Cleve</masterLabel>
+            <translation><!-- EF Cleve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EF Coober Pedy</masterLabel>
+            <translation><!-- EF Coober Pedy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EF Cowell</masterLabel>
+            <translation><!-- EF Cowell --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EF Cummins</masterLabel>
+            <translation><!-- EF Cummins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EF Elliston</masterLabel>
+            <translation><!-- EF Elliston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EF Kimba</masterLabel>
+            <translation><!-- EF Kimba --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EF Port Lincoln</masterLabel>
+            <translation><!-- EF Port Lincoln --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EF Streaky Bay</masterLabel>
+            <translation><!-- EF Streaky Bay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EF Tumby Bay</masterLabel>
+            <translation><!-- EF Tumby Bay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EF Wudinna</masterLabel>
+            <translation><!-- EF Wudinna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EF Yalata</masterLabel>
+            <translation><!-- EF Yalata --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FU Hawker</masterLabel>
+            <translation><!-- FU Hawker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FU Leigh Creek</masterLabel>
+            <translation><!-- FU Leigh Creek --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FU Oodnadatta Health Services</masterLabel>
+            <translation><!-- FU Oodnadatta Health Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FU Port Augusta</masterLabel>
+            <translation><!-- FU Port Augusta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FU Quorn</masterLabel>
+            <translation><!-- FU Quorn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FU Roxby Downs</masterLabel>
+            <translation><!-- FU Roxby Downs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FU Whyalla</masterLabel>
+            <translation><!-- FU Whyalla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FU Woomera Hospital</masterLabel>
+            <translation><!-- FU Woomera Hospital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GP GP Clinic</masterLabel>
+            <translation><!-- GP GP Clinic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HS AYTC Kurlana Tapa</masterLabel>
+            <translation><!-- HS AYTC Kurlana Tapa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LC Bordertown</masterLabel>
+            <translation><!-- LC Bordertown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LC Kingston</masterLabel>
+            <translation><!-- LC Kingston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LC Millicent</masterLabel>
+            <translation><!-- LC Millicent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LC Mt Gambier</masterLabel>
+            <translation><!-- LC Mt Gambier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LC Naracoorte</masterLabel>
+            <translation><!-- LC Naracoorte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LC Penola</masterLabel>
+            <translation><!-- LC Penola --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NG Headspace</masterLabel>
+            <translation><!-- NG Headspace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NG Royal Flying Doctor Service</masterLabel>
+            <translation><!-- NG Royal Flying Doctor Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NG Streetlink (Uniting Communities)</masterLabel>
+            <translation><!-- NG Streetlink (Uniting Communities) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NG UMHCC run by NEAMI</masterLabel>
+            <translation><!-- NG UMHCC run by NEAMI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO FCMHS</masterLabel>
+            <translation><!-- NO FCMHS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO JNH</masterLabel>
+            <translation><!-- NO JNH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO LMHS</masterLabel>
+            <translation><!-- NO LMHS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO MH</masterLabel>
+            <translation><!-- NO MH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO NCMHS</masterLabel>
+            <translation><!-- NO NCMHS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO NECMHS</masterLabel>
+            <translation><!-- NO NECMHS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO NOPMHS</masterLabel>
+            <translation><!-- NO NOPMHS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO Northgate House</masterLabel>
+            <translation><!-- NO Northgate House --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO Wondakka</masterLabel>
+            <translation><!-- NO Wondakka --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PH Private Hospital</masterLabel>
+            <translation><!-- PH Private Hospital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR Adelaide Remand Centre</masterLabel>
+            <translation><!-- PR Adelaide Remand Centre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR Adelaide Women&#39;s Prison</masterLabel>
+            <translation><!-- PR Adelaide Women&apos;s Prison --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR Cadell Training Centre</masterLabel>
+            <translation><!-- PR Cadell Training Centre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR City Watch House</masterLabel>
+            <translation><!-- PR City Watch House --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR Holden Hill</masterLabel>
+            <translation><!-- PR Holden Hill --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR Mobilong Prison</masterLabel>
+            <translation><!-- PR Mobilong Prison --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR Mount Gambier Prison</masterLabel>
+            <translation><!-- PR Mount Gambier Prison --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR Port Augusta Prison</masterLabel>
+            <translation><!-- PR Port Augusta Prison --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR Port Lincoln Prison</masterLabel>
+            <translation><!-- PR Port Lincoln Prison --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR Pre Release Centre</masterLabel>
+            <translation><!-- PR Pre Release Centre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR Yatala Labour Prison</masterLabel>
+            <translation><!-- PR Yatala Labour Prison --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RA Adelaide Clinic</masterLabel>
+            <translation><!-- RA Adelaide Clinic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RA Fullarton Clinic</masterLabel>
+            <translation><!-- RA Fullarton Clinic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM Barmera</masterLabel>
+            <translation><!-- RM Barmera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM Karoonda</masterLabel>
+            <translation><!-- RM Karoonda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM Lameroo</masterLabel>
+            <translation><!-- RM Lameroo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM Lower Murray (Tailem Bend)</masterLabel>
+            <translation><!-- RM Lower Murray (Tailem Bend) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM Loxton</masterLabel>
+            <translation><!-- RM Loxton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM Mannum</masterLabel>
+            <translation><!-- RM Mannum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM Meningie</masterLabel>
+            <translation><!-- RM Meningie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM Murray Bridge</masterLabel>
+            <translation><!-- RM Murray Bridge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM Pinnaroo</masterLabel>
+            <translation><!-- RM Pinnaroo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM Renmark</masterLabel>
+            <translation><!-- RM Renmark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM Riverland</masterLabel>
+            <translation><!-- RM Riverland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM Waikerie</masterLabel>
+            <translation><!-- RM Waikerie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA SACAT</masterLabel>
+            <translation><!-- SA SACAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SH SA Ambulance Service SAAS</masterLabel>
+            <translation><!-- SH SA Ambulance Service SAAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SO FMC</masterLabel>
+            <translation><!-- SO FMC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SO ISCMHS</masterLabel>
+            <translation><!-- SO ISCMHS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SO Jamie Larcombe Centre</masterLabel>
+            <translation><!-- SO Jamie Larcombe Centre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SO NHS</masterLabel>
+            <translation><!-- SO NHS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SO OSCMHS</masterLabel>
+            <translation><!-- SO OSCMHS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SO RGH</masterLabel>
+            <translation><!-- SO RGH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SO SICC</masterLabel>
+            <translation><!-- SO SICC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SO SOPMHS</masterLabel>
+            <translation><!-- SO SOPMHS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SO TPC</masterLabel>
+            <translation><!-- SO TPC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC Helen Mayo House</masterLabel>
+            <translation><!-- WC Helen Mayo House --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC WCH - the hospital</masterLabel>
+            <translation><!-- WC WCH - the hospital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC WCHN CAMHS - child/adolescent community</masterLabel>
+            <translation><!-- WC WCHN CAMHS - child/adolescent community --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC WCHN Yarrow Place</masterLabel>
+            <translation><!-- WC WCHN Yarrow Place --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC WCMHS - adult community</masterLabel>
+            <translation><!-- WC WCMHS - adult community --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YN Balaklava</masterLabel>
+            <translation><!-- YN Balaklava --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YN Booleroo</masterLabel>
+            <translation><!-- YN Booleroo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YN Burra</masterLabel>
+            <translation><!-- YN Burra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YN CYP (Maitland)</masterLabel>
+            <translation><!-- YN CYP (Maitland) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YN Clare</masterLabel>
+            <translation><!-- YN Clare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YN Crystal Brook</masterLabel>
+            <translation><!-- YN Crystal Brook --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YN Jamestown</masterLabel>
+            <translation><!-- YN Jamestown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YN Laura</masterLabel>
+            <translation><!-- YN Laura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YN Melaleuca Court Nursing Home (Minlaton)</masterLabel>
+            <translation><!-- YN Melaleuca Court Nursing Home (Minlaton) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YN Northern Yorke</masterLabel>
+            <translation><!-- YN Northern Yorke --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YN Orroroo</masterLabel>
+            <translation><!-- YN Orroroo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YN Peterborough</masterLabel>
+            <translation><!-- YN Peterborough --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YN Port Broughton</masterLabel>
+            <translation><!-- YN Port Broughton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YN Port Pirie</masterLabel>
+            <translation><!-- YN Port Pirie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YN Riverton</masterLabel>
+            <translation><!-- YN Riverton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YN Snowtown</masterLabel>
+            <translation><!-- YN Snowtown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YN Southern Yorke</masterLabel>
+            <translation><!-- YN Southern Yorke --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YN Wallaroo (Northen Yorke)</masterLabel>
+            <translation><!-- YN Wallaroo (Northen Yorke) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

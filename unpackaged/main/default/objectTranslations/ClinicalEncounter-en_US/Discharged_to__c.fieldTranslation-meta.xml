@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Discharged to --></label>
+        <name>Discharged_to__c</name>
+        <picklistValues>
+            <masterLabel>Community Health</masterLabel>
+            <translation><!-- Community Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Referred</masterLabel>
+            <translation><!-- Not Referred --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Mental Health Team</masterLabel>
+            <translation><!-- Other Mental Health Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Practice</masterLabel>
+            <translation><!-- Private Practice --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

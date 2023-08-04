@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Alert Type --></label>
+        <name>Alert_Type__c</name>
+        <picklistValues>
+            <masterLabel>0100 Cultural/ Family Need</masterLabel>
+            <translation><!-- 0100 Cultural/ Family Need --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0200 Disability</masterLabel>
+            <translation><!-- 0200 Disability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0300 Environment/OH&amp;S Hazard</masterLabel>
+            <translation><!-- 0300 Environment/OH&amp;S Hazard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0400 Medical Alert</masterLabel>
+            <translation><!-- 0400 Medical Alert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0500 Mobility Alert</masterLabel>
+            <translation><!-- 0500 Mobility Alert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0600 Restrict Information</masterLabel>
+            <translation><!-- 0600 Restrict Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0700 Risk</masterLabel>
+            <translation><!-- 0700 Risk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0800 Client Name Alert</masterLabel>
+            <translation><!-- 0800 Client Name Alert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9800 Other</masterLabel>
+            <translation><!-- 9800 Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9900 Alert Migration</masterLabel>
+            <translation><!-- 9900 Alert Migration --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

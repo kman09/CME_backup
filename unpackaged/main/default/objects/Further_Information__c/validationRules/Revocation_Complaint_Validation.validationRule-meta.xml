@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revocation_Complaint_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(RecordType.DeveloperName == &#39;Community_Treatment_Order_Level_1&#39;,
+  				OR(
+										AND(TEXT(Compliant_Revocation__c) == &#39;No&#39;,
+  			ISBLANK(Reason_for_Non_Compliance_Update_Revo__c)),
+								AND(TEXT(Compliant_Revocation__c) == &#39;Yes&#39;,
+NOT(ISBLANK(Reason_for_Non_Compliance_Update_Revo__c)))))</errorConditionFormula>
+    <errorDisplayField>Reason_for_Non_Compliance_Update_Revo__c</errorDisplayField>
+    <errorMessage>Reason for Non Compliance is required when Complaint is No.</errorMessage>
+</ValidationRule>

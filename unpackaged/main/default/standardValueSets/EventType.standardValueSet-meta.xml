@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Assessment</fullName>
+        <default>false</default>
+        <label>Assessment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Home Visit</fullName>
+        <default>false</default>
+        <label>Home Visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tele Appointment</fullName>
+        <default>false</default>
+        <label>Tele Appointment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Depot Administration</fullName>
+        <default>false</default>
+        <label>Depot Administration</label>
+    </standardValue>
+</StandardValueSet>

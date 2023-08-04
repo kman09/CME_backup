@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Review_Date_Validation</fullName>
+    <active>true</active>
+    <description>Review Date cannot be in the past of Start Date.
+Review Date cannot pass Close Date.</description>
+    <errorConditionFormula>OR( Review_Date__c  &lt;  Start_Date__c ,  Review_Date__c  &gt;  Close_Date__c 
+
+
+)</errorConditionFormula>
+    <errorMessage>Review Date should be greater than Start Date and less then Close Date</errorMessage>
+</ValidationRule>

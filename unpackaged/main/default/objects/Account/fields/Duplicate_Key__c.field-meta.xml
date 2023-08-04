@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Duplicate_Key__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>To merge two individual accounts, add a Random Identical text string into the &#39;Duplicate Key&#39; field for both records. Salesforce will promote you to merge after.</inlineHelpText>
+    <label>Duplicate Key</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

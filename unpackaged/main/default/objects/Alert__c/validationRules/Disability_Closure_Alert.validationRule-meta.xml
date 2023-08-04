@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Disability_Closure_Alert</fullName>
+    <active>true</active>
+    <description>This alert can not be closed</description>
+    <errorConditionFormula>AND( ISPICKVAL( Alert_Type__c , &quot;0200 Disability&quot;),  
+OR(
+ISPICKVAL( Status__c , &quot;Closed&quot;),
+NOT(ISBLANK( Close_by__c )),
+NOT(ISBLANK( Close_Date__c )),
+NOT(ISBLANK( Close_Reason__c ))
+)
+)</errorConditionFormula>
+    <errorMessage>This alert can not be closed.</errorMessage>
+</ValidationRule>

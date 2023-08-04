@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referral_Source__c</fullName>
+    <externalId>false</externalId>
+    <label>Referral Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>01 Self</fullName>
+                <default>false</default>
+                <label>01 Self</label>
+            </value>
+            <value>
+                <fullName>02 Family, Significant Other, Friend</fullName>
+                <default>false</default>
+                <label>02 Family, Significant Other, Friend</label>
+            </value>
+            <value>
+                <fullName>03 General Practitioner</fullName>
+                <default>false</default>
+                <label>03 General Practitioner</label>
+            </value>
+            <value>
+                <fullName>04 Specialised Aged/Disability Assessment Team</fullName>
+                <default>false</default>
+                <label>04 Specialised Aged/Disability Assessment Team</label>
+            </value>
+            <value>
+                <fullName>06 Community Nursing Service</fullName>
+                <default>false</default>
+                <label>06 Community Nursing Service</label>
+            </value>
+            <value>
+                <fullName>07 Hospital - Public</fullName>
+                <default>false</default>
+                <label>07 Hospital - Public</label>
+            </value>
+            <value>
+                <fullName>08 Psychiatric/Mental Health Service Facility</fullName>
+                <default>false</default>
+                <label>08 Psychiatric/Mental Health Service Facility</label>
+            </value>
+            <value>
+                <fullName>11 Govt Residential Aged Care Facility</fullName>
+                <default>false</default>
+                <label>11 Govt Residential Aged Care Facility</label>
+            </value>
+            <value>
+                <fullName>12 Aboriginal Health Service</fullName>
+                <default>false</default>
+                <label>12 Aboriginal Health Service</label>
+            </value>
+            <value>
+                <fullName>14 Other Community Based Govt Medical/Health Service</fullName>
+                <default>false</default>
+                <label>14 Other Community Based Govt Medical/Health Service</label>
+            </value>
+            <value>
+                <fullName>15 Other Govt Medical Health Service</fullName>
+                <default>false</default>
+                <label>15 Other Govt Medical Health Service</label>
+            </value>
+            <value>
+                <fullName>16 Other Govt Community Based Service</fullName>
+                <default>false</default>
+                <label>16 Other Govt Community Based Service</label>
+            </value>
+            <value>
+                <fullName>17 Hospital -Private</fullName>
+                <default>false</default>
+                <label>17 Hospital -Private</label>
+            </value>
+            <value>
+                <fullName>18 Non-Govt Residential Aged Care Facility</fullName>
+                <default>false</default>
+                <label>18 Non-Govt Residential Aged Care Facility</label>
+            </value>
+            <value>
+                <fullName>19 Other non-Govt Medical/Health Service</fullName>
+                <default>false</default>
+                <label>19 Other non-Govt Medical/Health Service</label>
+            </value>
+            <value>
+                <fullName>20 Other non-Govt Community Based Service</fullName>
+                <default>false</default>
+                <label>20 Other non-Govt Community Based Service</label>
+            </value>
+            <value>
+                <fullName>21 Justice System</fullName>
+                <default>false</default>
+                <label>21 Justice System</label>
+            </value>
+            <value>
+                <fullName>22 Other</fullName>
+                <default>false</default>
+                <label>22 Other</label>
+            </value>
+            <value>
+                <fullName>99 Not Stated/Inadequately Described</fullName>
+                <default>false</default>
+                <label>99 Not Stated/Inadequately Described</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

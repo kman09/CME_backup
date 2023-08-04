@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Living Arrangements --></label>
+        <name>Living_Arrangements__c</name>
+        <picklistValues>
+            <masterLabel>Lives alone</masterLabel>
+            <translation><!-- Lives alone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lives with family</masterLabel>
+            <translation><!-- Lives with family --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lives with others</masterLabel>
+            <translation><!-- Lives with others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not stated /Inadequately described</masterLabel>
+            <translation><!-- Not stated /Inadequately described --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Absconding (Assessed Level) --></label>
+        <name>Absconding_Assessed_Level__c</name>
+        <picklistValues>
+            <masterLabel>High - Frequent, Intense, Enduring</masterLabel>
+            <translation><!-- High - Frequent, Intense, Enduring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low - Mild, Limited, Frequency and Intensity</masterLabel>
+            <translation><!-- Low - Mild, Limited, Frequency and Intensity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium - Frequent, Limitedintensity and Duration</masterLabel>
+            <translation><!-- Medium - Frequent, Limitedintensity and Duration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Risk</masterLabel>
+            <translation><!-- No Risk --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

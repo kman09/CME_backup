@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agency_Revocation__c</fullName>
+    <externalId>false</externalId>
+    <label>Agency</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>APY Lands (Pending relocation)</fullName>
+                <default>false</default>
+                <label>APY Lands (Pending relocation)</label>
+            </value>
+            <value>
+                <fullName>BHFLHN</fullName>
+                <default>false</default>
+                <label>BHFLHN</label>
+            </value>
+            <value>
+                <fullName>CHSALHN</fullName>
+                <default>false</default>
+                <label>CHSALHN</label>
+            </value>
+            <value>
+                <fullName>CALHN</fullName>
+                <default>false</default>
+                <label>CALHN</label>
+            </value>
+            <value>
+                <fullName>DASSA</fullName>
+                <default>false</default>
+                <label>DASSA</label>
+            </value>
+            <value>
+                <fullName>EFNLHN</fullName>
+                <default>false</default>
+                <label>EFNLHN</label>
+            </value>
+            <value>
+                <fullName>FUNLHN</fullName>
+                <default>false</default>
+                <label>FUNLHN</label>
+            </value>
+            <value>
+                <fullName>GP CLINIC</fullName>
+                <default>false</default>
+                <label>GP CLINIC</label>
+            </value>
+            <value>
+                <fullName>Dept. of Human Services</fullName>
+                <default>false</default>
+                <label>Dept. of Human Services</label>
+            </value>
+            <value>
+                <fullName>LCLHN</fullName>
+                <default>false</default>
+                <label>LCLHN</label>
+            </value>
+            <value>
+                <fullName>NGO</fullName>
+                <default>false</default>
+                <label>NGO</label>
+            </value>
+            <value>
+                <fullName>NALHN</fullName>
+                <default>false</default>
+                <label>NALHN</label>
+            </value>
+            <value>
+                <fullName>PRIVATE HOSPITALS</fullName>
+                <default>false</default>
+                <label>PRIVATE HOSPITALS</label>
+            </value>
+            <value>
+                <fullName>PRISONS</fullName>
+                <default>false</default>
+                <label>PRISONS</label>
+            </value>
+            <value>
+                <fullName>RAMSAY</fullName>
+                <default>false</default>
+                <label>RAMSAY</label>
+            </value>
+            <value>
+                <fullName>RMCLHN</fullName>
+                <default>false</default>
+                <label>RMCLHN</label>
+            </value>
+            <value>
+                <fullName>SACAT</fullName>
+                <default>false</default>
+                <label>SACAT</label>
+            </value>
+            <value>
+                <fullName>SA Health</fullName>
+                <default>false</default>
+                <label>SA Health</label>
+            </value>
+            <value>
+                <fullName>SALHN</fullName>
+                <default>false</default>
+                <label>SALHN</label>
+            </value>
+            <value>
+                <fullName>WCHN</fullName>
+                <default>false</default>
+                <label>WCHN</label>
+            </value>
+            <value>
+                <fullName>Y&amp;NLHN</fullName>
+                <default>false</default>
+                <label>Y&amp;NLHN</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

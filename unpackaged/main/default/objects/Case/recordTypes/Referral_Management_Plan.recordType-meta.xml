@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referral_Management_Plan</fullName>
+    <active>true</active>
+    <businessProcess>Referral Support Process</businessProcess>
+    <compactLayoutAssignment>Referral_Compact_Layout</compactLayoutAssignment>
+    <label>Referral Management Plan</label>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Twitter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>Critical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Complex functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructions not clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User didn%27t attend training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Referee_Advised__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Referral_Source__c</picklist>
+        <values>
+            <fullName>ALRM Lawyer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aboriginal Health Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAMHS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CentreLink</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Child Protection Agency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Combined Regional Triage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Court %28Magistrate%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Court Diversion Program %2F TIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DASSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DCP %28was Families SA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disability SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Domiciliary Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Educational Institution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emergency Department</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Episode integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FCADS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FMC Paediatric Department</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Family</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Friend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSB%2C MAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Govt Residential Aged Care Facility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Headspace - Early Psychosis Program %28formerly  hYEPP%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Headspace - emerge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Headspace - general</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Homeless Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospital - Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hostel %2F Boarding House</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LMH Paediatric Department</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LSC Lawyer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Local Government Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MH Community Residential %2F Rehabilitation Centre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MH Inpatient Facility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MH Intermediate Care Centre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Govt Residential Aged Care Facility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Stated %2F Inadequately Described</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Community Health Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Private Practitioner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other public hospital department</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Police incl%2E Police Custody</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prison Health Service %28SAPHS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Lawyer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Paediatrician</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Psychiatrist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prosecution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Psychiatry Liaison</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Psychologist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R%26R Emergency Triage Liaison Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RDNS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regional ACIS Teams</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regional CHS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regional CT%2FCCT%2FMACS Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA Housing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Self</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sheriff%27s Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Significant Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specialist Aged Assessment Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specialist Disability Assessment Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specialist%2FConsultant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Correctional Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Allied Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Antenatal Clinic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Antenatal Ward</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Burns</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Cardiology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Chemical Pathology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Child Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Child Protection Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Chronic Pain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Craniofacial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Dental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Dermatology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH ENT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Endocrine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Gastro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH General Medicine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Genetics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Haematology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Histopathology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Immunology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Maternal Fetal Medicine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Metabolic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Nerosurgery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Neurology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Occupational Therapy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Oncology - Michael Rice Centre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Opthalmology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Orthopaedic Surgery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Paediatric anasthesia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Paediatric emergency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Paediatric intensive care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Paediatric surgery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Physio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Plastic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Postnatal Ward</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Pulmonary medicine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Rehab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Renal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Rheumatology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Social work</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Speech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Univ%2E Paed Med</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Urology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WCH Women%27s Assessment %28WAS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Women%27s CHC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Youth CHC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Referral_Type__c</picklist>
+        <values>
+            <fullName>External</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Feature Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Question</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

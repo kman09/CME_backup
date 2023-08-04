@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category_Required_on_Suicide_Self_Harm</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(RecordType.DeveloperName == &#39;Comprehensive_Assessment&#39;,
+				TEXT(Suicide_Self_Harm_Assessed_Level__c) != &#39;&#39; , 
+				TEXT(Suicide_Self_Harm_Assessed_Level__c) != &#39;No Risk&#39;,
+			TEXT(Suicide_Self_Harm_Category_Level__c) == &#39;&#39;)</errorConditionFormula>
+    <errorDisplayField>Suicide_Self_Harm_Category_Level__c</errorDisplayField>
+    <errorMessage>Suicide / Self Harm (Category Level) is mandatory.</errorMessage>
+</ValidationRule>

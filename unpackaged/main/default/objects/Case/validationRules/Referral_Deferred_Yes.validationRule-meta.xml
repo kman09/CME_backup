@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referral_Deferred_Yes</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(  RecordType.DeveloperName == &#39;Referral_Management_Plan&#39; ,
+				TEXT(Status) == &#39;Deferred&#39;,
+    ISBLANK(Reason_for_Deferral__c) )</errorConditionFormula>
+    <errorMessage>Please provide Reason for Deferral</errorMessage>
+</ValidationRule>

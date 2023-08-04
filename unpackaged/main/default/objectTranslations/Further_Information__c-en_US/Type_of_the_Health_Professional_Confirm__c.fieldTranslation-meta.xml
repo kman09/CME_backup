@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Type of the Health Professional --></label>
+        <name>Type_of_the_Health_Professional_Confirm__c</name>
+        <picklistValues>
+            <masterLabel>Authorised MP</masterLabel>
+            <translation><!-- Authorised MP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Psychiatrist</masterLabel>
+            <translation><!-- Psychiatrist --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

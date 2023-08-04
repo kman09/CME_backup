@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_Entered_Confirmation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(RecordType.DeveloperName == &#39;Community_Treatment_Order_Level_1&#39;,
+  NOT(ISBLANK(Date_Entered_Confirmation__c)) ,
+OR(Date_Entered_Confirmation__c&gt; TODAY() ,
+			Date_Entered_Confirmation__c &lt;  Commencement_Date__c )
+)</errorConditionFormula>
+    <errorMessage>Date Entered of Confirmation should be less than future date and greater than Commencement Date.</errorMessage>
+</ValidationRule>

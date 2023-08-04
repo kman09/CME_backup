@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DuplicateRule xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <actionOnInsert>Block</actionOnInsert>
+    <actionOnUpdate>Block</actionOnUpdate>
+    <alertText>Same Alert type already exists for the client</alertText>
+    <description xsi:nil="true"/>
+    <duplicateRuleFilter>
+        <booleanFilter xsi:nil="true"/>
+        <duplicateRuleFilterItems>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>New</value>
+            <sortOrder>1</sortOrder>
+            <table>Alert__c</table>
+        </duplicateRuleFilterItems>
+        <duplicateRuleFilterItems>
+            <field>Alert_Type__c</field>
+            <operation>notEqual</operation>
+            <value>0200 Disability, 0800 Client Name Alert, 9800 Other</value>
+            <sortOrder>2</sortOrder>
+            <table>Alert__c</table>
+        </duplicateRuleFilterItems>
+        <duplicateRuleFilterItems>
+            <field>Alert_Sub_Type__c</field>
+            <operation>notEqual</operation>
+            <value>0401 Allergy, 0403 Infectious Condition, 0404 Adverse Drug Reaction, 0405 Serious Medical Condition, 0701 At Risk of Abuse, 0705 Weapon (Include Firearm), 0706 Protocol / Standing Order</value>
+            <sortOrder>3</sortOrder>
+            <table>Alert__c</table>
+        </duplicateRuleFilterItems>
+    </duplicateRuleFilter>
+    <duplicateRuleMatchRules>
+        <matchRuleSObjectType>Alert__c</matchRuleSObjectType>
+        <matchingRule>Alert_Type_and_Sub_Type</matchingRule>
+        <objectMapping xsi:nil="true"/>
+    </duplicateRuleMatchRules>
+    <isActive>true</isActive>
+    <masterLabel>Check Duplicate Alert</masterLabel>
+    <securityOption>EnforceSharingRules</securityOption>
+    <sortOrder>1</sortOrder>
+</DuplicateRule>

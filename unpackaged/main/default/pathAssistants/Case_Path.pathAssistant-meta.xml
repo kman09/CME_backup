@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Case</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Case Path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Status</fieldNames>
+        <fieldNames>Accepted_Team__c</fieldNames>
+        <fieldNames>Accepted_Not_Accepted_Comments__c</fieldNames>
+        <fieldNames>Episode__c</fieldNames>
+        <picklistValueName>Accepted</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Status</fieldNames>
+        <fieldNames>Accepted_Not_Accepted_Comments__c</fieldNames>
+        <fieldNames>Referee_Advised__c</fieldNames>
+        <picklistValueName>Declined</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Status</fieldNames>
+        <fieldNames>Reason_for_Deferral__c</fieldNames>
+        <fieldNames>Deferred_Date__c</fieldNames>
+        <picklistValueName>Deferred</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Status</fieldNames>
+        <fieldNames>Team_Referred_to__c</fieldNames>
+        <picklistValueName>Re-Referred</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Referral_Management_Plan</recordTypeName>
+</PathAssistant>

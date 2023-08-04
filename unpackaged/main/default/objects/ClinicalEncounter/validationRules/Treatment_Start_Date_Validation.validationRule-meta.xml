@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Treatment_Start_Date_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(NOT(ISBLANK(Treatment_Start_Date__c)),
+			OR(Treatment_Start_Date__c &gt; TODAY(),
+				AND(NOT(ISBLANK(StartDate)) ,
+								Treatment_Start_Date__c &lt; DATEVALUE(StartDate))
+					))</errorConditionFormula>
+    <errorDisplayField>Treatment_Start_Date__c</errorDisplayField>
+    <errorMessage>Treatment Start Date should not be greater than future date and  less than Start Date.</errorMessage>
+</ValidationRule>

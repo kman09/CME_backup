@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IndustriesSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <appointmentDistributionOrgPref>false</appointmentDistributionOrgPref>
+    <enableAccountScoreEnabled>false</enableAccountScoreEnabled>
+    <enableAppInviteOrgPref>false</enableAppInviteOrgPref>
+    <enableCareMgmtSlackAccess>false</enableCareMgmtSlackAccess>
+    <enableClinicalDataModel>true</enableClinicalDataModel>
+    <enableCustomFlowsOnCycleCount>false</enableCustomFlowsOnCycleCount>
+    <enableCustomFlowsOnExpiryPage>false</enableCustomFlowsOnExpiryPage>
+    <enableDiscoveryFrameworkMetadata>false</enableDiscoveryFrameworkMetadata>
+    <enableEnhancedQuestionCreation>true</enableEnhancedQuestionCreation>
+    <enableEventManagementOrgPref>false</enableEventManagementOrgPref>
+    <enableEventWriteOrgPref>false</enableEventWriteOrgPref>
+    <enableExistingHealthCloudOrg>false</enableExistingHealthCloudOrg>
+    <enableIndustriesAssessment>false</enableIndustriesAssessment>
+    <enableMedicalDeviceEnabled>false</enableMedicalDeviceEnabled>
+    <enableMedicationManagementEnabled>false</enableMedicationManagementEnabled>
+    <enableMultiResourceOrgPref>false</enableMultiResourceOrgPref>
+    <enableMultipleCareProgramEnrolleeOrgPref>false</enableMultipleCareProgramEnrolleeOrgPref>
+    <enableOverbookingOrgPref>false</enableOverbookingOrgPref>
+    <enablePatientAppointmentSchedulingOrgPref>false</enablePatientAppointmentSchedulingOrgPref>
+    <enableShareSaWithArOrgPref>false</enableShareSaWithArOrgPref>
+    <enableTimelinePref>false</enableTimelinePref>
+    <enableTopicOrTemplate>false</enableTopicOrTemplate>
+    <enableTopicTimeSlot>true</enableTopicTimeSlot>
+    <enableVisitCalendarSync>false</enableVisitCalendarSync>
+    <enableVisitInventoryEnabled>false</enableVisitInventoryEnabled>
+    <rlaEditIfAccHasEdit>false</rlaEditIfAccHasEdit>
+</IndustriesSettings>

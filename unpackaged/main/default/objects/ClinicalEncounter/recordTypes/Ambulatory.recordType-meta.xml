@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ambulatory</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Episode_Compact_Layout</compactLayoutAssignment>
+    <label>Ambulatory</label>
+    <picklistValues>
+        <picklist>AdmissionSource</picklist>
+        <values>
+            <fullName>Another Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emergency Department</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Practitioner Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-Hospital Birth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nursing Home</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Medical Practitioner Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outpatient Department</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Psychiatric Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rehabilitation Facility</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Category</picklist>
+        <values>
+            <fullName>Ambulatory</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Emergency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inpatient Encounter</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DietPreference</picklist>
+        <values>
+            <fullName>Dairy-Free</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gluten-Free</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Halal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kosher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nut-Free</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vegan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vegetarian</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Discharged_to__c</picklist>
+        <values>
+            <fullName>Community Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Referred</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Mental Health Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Practice</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lives_with__c</picklist>
+        <values>
+            <fullName>DCP Care Arrangement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Father alone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Father and StepMother%2Fdefacto%2Fother</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foster parents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Independent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Institution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mother alone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mother and Stepfather%2Fdefacto%2Fother</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relatives</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Two adoptive parents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Two biological parents</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Living_Arrangements__c</picklist>
+        <values>
+            <fullName>Lives alone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lives with family</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lives with others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Applicable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not stated %2FInadequately described</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MH_Legal_Status__c</picklist>
+        <values>
+            <fullName>Involuntary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voluntary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Other_service__c</picklist>
+        <values>
+            <fullName>ARSH Support Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aboriginal Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anglicare SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baptist Community Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Beyond blue limit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CACP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CBS %28Community Bridging Services Inc%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLO %28Community Living Options Inc%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSA %28Child Sexual Assault%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carer Allowance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carer Support %26 Respite Centre Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carers Association of SA Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carers link Barossa and Districts Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Catherine House</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Centacare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Museum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Centrelink</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clubhouse SA Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community Ground Adelaide</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community Health Centr</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community Support Inc %28CSI%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Correctional Services%2FForensic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Country North Community Services Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D%2FV Services %28Domestic Violence%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DASSA %28Drug and Alcohol Services SA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Day Therapy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Department for Child Protection %28was Families SA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disability SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Domiciliary Care Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eating Disorders Association of SA Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Free Here to Home</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Practice SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grow%28SA%29 Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HYPA %28Helping Young People Achieve%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Headspace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Helping Hand Aged Care Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Housing SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ILEP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Life Without Barriers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Local Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAC - My Aged Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Matchworks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meal Services %28e%2Eg%2E Meals on Wheels%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mental Health Coalition of SA Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metro Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metro Community Living</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metro Home link</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mind %28formerly Richmond Fellowship%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mission Australia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multicultural Services %28e%2Eg%2E Ethnic Link%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NDIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NEAMI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neighbourhood Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northern CAMHS - CWYHS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northern Carers Network</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nunkuwarrin Yunti</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nursing Services %28e%2Eg%2E RDNS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Obsessive Compulsive Disorders Support Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Options</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Panic Anxiety Disorder Association Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pathways to Recovery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Home Care%2FGardening</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Trustee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refugee Association</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refugee Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relationships Australia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Respite%2FSitter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roofs South Australia Housing Association Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA Hope Foundation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salvation Army</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SkyLight %28Formerly Mental Illness Fellowship of SA Inc%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support Group %28Religious%2C Cancer etc%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surveillance%2FPersonal Alarms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Survivors of Torture %26 Trauma Assist %26 Rehab Svc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Uniting Care Wesley</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Uniting SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unity Housing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Volunteer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Previous_Psychiatric_History__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason_for_Discharge__c</picklist>
+        <values>
+            <fullName>Client Died</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Moved out of Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Terminated Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discharge%2FTransfer to another Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Episode Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required - In Residential Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required - Problem Resolved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referred to Other Residential Care</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Referral_Source__c</picklist>
+        <values>
+            <fullName>01 Self</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>02 Family%2C Significant Other%2C Friend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>03 General Practitioner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>04 Specialised Aged%2FDisability Assessment Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>06 Community Nursing Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>07 Hospital - Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>08 Psychiatric%2FMental Health Service Facility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11 Govt Residential Aged Care Facility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12 Aboriginal Health Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>14 Other Community Based Govt Medical%2FHealth Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15 Other Govt Medical Health Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>16 Other Govt Community Based Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>17 Hospital -Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>18 Non-Govt Residential Aged Care Facility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>19 Other non-Govt Medical%2FHealth Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20 Other non-Govt Community Based Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>21 Justice System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>22 Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>99 Not Stated%2FInadequately Described</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ServiceType</picklist>
+        <values>
+            <fullName>Homoeopathy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meditation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Naturopathy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reflexology</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SpecialCourtesy</picklist>
+        <values>
+            <fullName>Extended</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Normal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIP</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

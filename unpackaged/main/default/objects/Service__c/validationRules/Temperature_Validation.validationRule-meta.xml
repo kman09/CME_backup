@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Temperature_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(RecordType.DeveloperName == &#39;Physical_Health_Assessment&#39;,
+				NOT(ISBLANK(Temperature__c)),
+				OR(Temperature__c &lt;= 0 ,Temperature__c &gt; 60))</errorConditionFormula>
+    <errorDisplayField>Temperature__c</errorDisplayField>
+    <errorMessage>Temperature should be between 0.0 to 60.0.</errorMessage>
+</ValidationRule>

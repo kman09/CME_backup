@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Systolic_BP_validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISBLANK(Xst_Blood_Pressure_Systolic_mmHg__c) ,NOT(ISBLANK(Xnd_Blood_Pressure_Systolic_mmHg__c)) )</errorConditionFormula>
+    <errorDisplayField>Xst_Blood_Pressure_Systolic_mmHg__c</errorDisplayField>
+    <errorMessage>1st Blood Pressure Systolic should have some value.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Diastolic_BP_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISBLANK(X1st_Blood_Pressure_Diastolic_mmHg__c) ,NOT(ISBLANK(X2nd_Blood_Pressure_Diastolic_mmHg__c)) )</errorConditionFormula>
+    <errorDisplayField>X1st_Blood_Pressure_Diastolic_mmHg__c</errorDisplayField>
+    <errorMessage>1st Blood Pressure Diastolic should have some value.</errorMessage>
+</ValidationRule>

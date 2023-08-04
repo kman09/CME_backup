@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_service__c</fullName>
+    <externalId>false</externalId>
+    <label>Other service</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Discharged_to__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aboriginal Health</fullName>
+                <default>false</default>
+                <label>Aboriginal Health</label>
+            </value>
+            <value>
+                <fullName>Anglicare SA</fullName>
+                <default>false</default>
+                <label>Anglicare SA</label>
+            </value>
+            <value>
+                <fullName>ARSH Support Services</fullName>
+                <default>false</default>
+                <label>ARSH Support Services</label>
+            </value>
+            <value>
+                <fullName>Baptist Community Service</fullName>
+                <default>false</default>
+                <label>Baptist Community Service</label>
+            </value>
+            <value>
+                <fullName>Beyond blue limit</fullName>
+                <default>false</default>
+                <label>Beyond blue limit</label>
+            </value>
+            <value>
+                <fullName>CACP</fullName>
+                <default>false</default>
+                <label>CACP</label>
+            </value>
+            <value>
+                <fullName>Carer Allowance</fullName>
+                <default>false</default>
+                <label>Carer Allowance</label>
+            </value>
+            <value>
+                <fullName>Carer Support &amp; Respite Centre Inc</fullName>
+                <default>false</default>
+                <label>Carer Support &amp; Respite Centre Inc</label>
+            </value>
+            <value>
+                <fullName>Carers Association of SA Inc</fullName>
+                <default>false</default>
+                <label>Carers Association of SA Inc</label>
+            </value>
+            <value>
+                <fullName>Carers link Barossa and Districts Inc</fullName>
+                <default>false</default>
+                <label>Carers link Barossa and Districts Inc</label>
+            </value>
+            <value>
+                <fullName>Catherine House</fullName>
+                <default>false</default>
+                <label>Catherine House</label>
+            </value>
+            <value>
+                <fullName>CBS (Community Bridging Services Inc)</fullName>
+                <default>false</default>
+                <label>CBS (Community Bridging Services Inc)</label>
+            </value>
+            <value>
+                <fullName>Centacare</fullName>
+                <default>false</default>
+                <label>Centacare</label>
+            </value>
+            <value>
+                <fullName>Central Museum</fullName>
+                <default>false</default>
+                <label>Central Museum</label>
+            </value>
+            <value>
+                <fullName>Centrelink</fullName>
+                <default>false</default>
+                <label>Centrelink</label>
+            </value>
+            <value>
+                <fullName>CHAP</fullName>
+                <default>false</default>
+                <label>CHAP</label>
+            </value>
+            <value>
+                <fullName>CLO (Community Living Options Inc)</fullName>
+                <default>false</default>
+                <label>CLO (Community Living Options Inc)</label>
+            </value>
+            <value>
+                <fullName>Clubhouse SA Inc</fullName>
+                <default>false</default>
+                <label>Clubhouse SA Inc</label>
+            </value>
+            <value>
+                <fullName>Community Ground Adelaide</fullName>
+                <default>false</default>
+                <label>Community Ground Adelaide</label>
+            </value>
+            <value>
+                <fullName>Community Health Centr</fullName>
+                <default>false</default>
+                <label>Community Health Centr</label>
+            </value>
+            <value>
+                <fullName>Community Support Inc (CSI)</fullName>
+                <default>false</default>
+                <label>Community Support Inc (CSI)</label>
+            </value>
+            <value>
+                <fullName>Correctional Services/Forensic</fullName>
+                <default>false</default>
+                <label>Correctional Services/Forensic</label>
+            </value>
+            <value>
+                <fullName>Country North Community Services Inc</fullName>
+                <default>false</default>
+                <label>Country North Community Services Inc</label>
+            </value>
+            <value>
+                <fullName>CSA (Child Sexual Assault)</fullName>
+                <default>false</default>
+                <label>CSA (Child Sexual Assault)</label>
+            </value>
+            <value>
+                <fullName>D/V Services (Domestic Violence)</fullName>
+                <default>false</default>
+                <label>D/V Services (Domestic Violence)</label>
+            </value>
+            <value>
+                <fullName>DASSA (Drug and Alcohol Services SA)</fullName>
+                <default>false</default>
+                <label>DASSA (Drug and Alcohol Services SA)</label>
+            </value>
+            <value>
+                <fullName>Day Therapy</fullName>
+                <default>false</default>
+                <label>Day Therapy</label>
+            </value>
+            <value>
+                <fullName>Department for Child Protection (was Families SA)</fullName>
+                <default>false</default>
+                <label>Department for Child Protection (was Families SA)</label>
+            </value>
+            <value>
+                <fullName>Disability SA</fullName>
+                <default>false</default>
+                <label>Disability SA</label>
+            </value>
+            <value>
+                <fullName>Domiciliary Care Service</fullName>
+                <default>false</default>
+                <label>Domiciliary Care Service</label>
+            </value>
+            <value>
+                <fullName>DVA</fullName>
+                <default>false</default>
+                <label>DVA</label>
+            </value>
+            <value>
+                <fullName>Eating Disorders Association of SA Inc</fullName>
+                <default>false</default>
+                <label>Eating Disorders Association of SA Inc</label>
+            </value>
+            <value>
+                <fullName>Free Here to Home</fullName>
+                <default>false</default>
+                <label>Free Here to Home</label>
+            </value>
+            <value>
+                <fullName>General Practice SA</fullName>
+                <default>false</default>
+                <label>General Practice SA</label>
+            </value>
+            <value>
+                <fullName>Grow(SA) Inc</fullName>
+                <default>false</default>
+                <label>Grow(SA) Inc</label>
+            </value>
+            <value>
+                <fullName>Headspace</fullName>
+                <default>false</default>
+                <label>Headspace</label>
+            </value>
+            <value>
+                <fullName>Helping Hand Aged Care Inc</fullName>
+                <default>false</default>
+                <label>Helping Hand Aged Care Inc</label>
+            </value>
+            <value>
+                <fullName>Hospice</fullName>
+                <default>false</default>
+                <label>Hospice</label>
+            </value>
+            <value>
+                <fullName>Housing SA</fullName>
+                <default>false</default>
+                <label>Housing SA</label>
+            </value>
+            <value>
+                <fullName>HYPA (Helping Young People Achieve)</fullName>
+                <default>false</default>
+                <label>HYPA (Helping Young People Achieve)</label>
+            </value>
+            <value>
+                <fullName>ILEP</fullName>
+                <default>false</default>
+                <label>ILEP</label>
+            </value>
+            <value>
+                <fullName>Life Without Barriers</fullName>
+                <default>false</default>
+                <label>Life Without Barriers</label>
+            </value>
+            <value>
+                <fullName>Local Government</fullName>
+                <default>false</default>
+                <label>Local Government</label>
+            </value>
+            <value>
+                <fullName>MAC - My Aged Care</fullName>
+                <default>false</default>
+                <label>MAC - My Aged Care</label>
+            </value>
+            <value>
+                <fullName>Matchworks</fullName>
+                <default>false</default>
+                <label>Matchworks</label>
+            </value>
+            <value>
+                <fullName>Meal Services (e.g. Meals on Wheels)</fullName>
+                <default>false</default>
+                <label>Meal Services (e.g. Meals on Wheels)</label>
+            </value>
+            <value>
+                <fullName>Mental Health Coalition of SA Inc</fullName>
+                <default>false</default>
+                <label>Mental Health Coalition of SA Inc</label>
+            </value>
+            <value>
+                <fullName>Metro Access</fullName>
+                <default>false</default>
+                <label>Metro Access</label>
+            </value>
+            <value>
+                <fullName>Metro Community Living</fullName>
+                <default>false</default>
+                <label>Metro Community Living</label>
+            </value>
+            <value>
+                <fullName>Metro Home link</fullName>
+                <default>false</default>
+                <label>Metro Home link</label>
+            </value>
+            <value>
+                <fullName>Mind (formerly Richmond Fellowship)</fullName>
+                <default>false</default>
+                <label>Mind (formerly Richmond Fellowship)</label>
+            </value>
+            <value>
+                <fullName>Mission Australia</fullName>
+                <default>false</default>
+                <label>Mission Australia</label>
+            </value>
+            <value>
+                <fullName>Multicultural Services (e.g. Ethnic Link)</fullName>
+                <default>false</default>
+                <label>Multicultural Services (e.g. Ethnic Link)</label>
+            </value>
+            <value>
+                <fullName>NDIS</fullName>
+                <default>false</default>
+                <label>NDIS</label>
+            </value>
+            <value>
+                <fullName>NEAMI</fullName>
+                <default>false</default>
+                <label>NEAMI</label>
+            </value>
+            <value>
+                <fullName>Neighbourhood Access</fullName>
+                <default>false</default>
+                <label>Neighbourhood Access</label>
+            </value>
+            <value>
+                <fullName>Northern CAMHS - CWYHS</fullName>
+                <default>false</default>
+                <label>Northern CAMHS - CWYHS</label>
+            </value>
+            <value>
+                <fullName>Northern Carers Network</fullName>
+                <default>false</default>
+                <label>Northern Carers Network</label>
+            </value>
+            <value>
+                <fullName>Nunkuwarrin Yunti</fullName>
+                <default>false</default>
+                <label>Nunkuwarrin Yunti</label>
+            </value>
+            <value>
+                <fullName>Nursing Services (e.g. RDNS)</fullName>
+                <default>false</default>
+                <label>Nursing Services (e.g. RDNS)</label>
+            </value>
+            <value>
+                <fullName>Obsessive Compulsive Disorders Support Service</fullName>
+                <default>false</default>
+                <label>Obsessive Compulsive Disorders Support Service</label>
+            </value>
+            <value>
+                <fullName>Options</fullName>
+                <default>false</default>
+                <label>Options</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Panic Anxiety Disorder Association Inc</fullName>
+                <default>false</default>
+                <label>Panic Anxiety Disorder Association Inc</label>
+            </value>
+            <value>
+                <fullName>Pathways to Recovery</fullName>
+                <default>false</default>
+                <label>Pathways to Recovery</label>
+            </value>
+            <value>
+                <fullName>Private Home Care/Gardening</fullName>
+                <default>false</default>
+                <label>Private Home Care/Gardening</label>
+            </value>
+            <value>
+                <fullName>Public Trustee</fullName>
+                <default>false</default>
+                <label>Public Trustee</label>
+            </value>
+            <value>
+                <fullName>Refugee Association</fullName>
+                <default>false</default>
+                <label>Refugee Association</label>
+            </value>
+            <value>
+                <fullName>Refugee Services</fullName>
+                <default>false</default>
+                <label>Refugee Services</label>
+            </value>
+            <value>
+                <fullName>Relationships Australia</fullName>
+                <default>false</default>
+                <label>Relationships Australia</label>
+            </value>
+            <value>
+                <fullName>Respite/Sitter</fullName>
+                <default>false</default>
+                <label>Respite/Sitter</label>
+            </value>
+            <value>
+                <fullName>Roofs South Australia Housing Association Inc</fullName>
+                <default>false</default>
+                <label>Roofs South Australia Housing Association Inc</label>
+            </value>
+            <value>
+                <fullName>SA Hope Foundation</fullName>
+                <default>false</default>
+                <label>SA Hope Foundation</label>
+            </value>
+            <value>
+                <fullName>Salvation Army</fullName>
+                <default>false</default>
+                <label>Salvation Army</label>
+            </value>
+            <value>
+                <fullName>SkyLight (Formerly Mental Illness Fellowship of SA Inc)</fullName>
+                <default>false</default>
+                <label>SkyLight (Formerly Mental Illness Fellowship of SA Inc)</label>
+            </value>
+            <value>
+                <fullName>Support Group (Religious, Cancer etc)</fullName>
+                <default>false</default>
+                <label>Support Group (Religious, Cancer etc)</label>
+            </value>
+            <value>
+                <fullName>Surveillance/Personal Alarms</fullName>
+                <default>false</default>
+                <label>Surveillance/Personal Alarms</label>
+            </value>
+            <value>
+                <fullName>Survivors of Torture &amp; Trauma Assist &amp; Rehab Svc</fullName>
+                <default>false</default>
+                <label>Survivors of Torture &amp; Trauma Assist &amp; Rehab Svc</label>
+            </value>
+            <value>
+                <fullName>Transport</fullName>
+                <default>false</default>
+                <label>Transport</label>
+            </value>
+            <value>
+                <fullName>Uniting Care Wesley</fullName>
+                <default>false</default>
+                <label>Uniting Care Wesley</label>
+            </value>
+            <value>
+                <fullName>Uniting SA</fullName>
+                <default>false</default>
+                <label>Uniting SA</label>
+            </value>
+            <value>
+                <fullName>Unity Housing</fullName>
+                <default>false</default>
+                <label>Unity Housing</label>
+            </value>
+            <value>
+                <fullName>Volunteer</fullName>
+                <default>false</default>
+                <label>Volunteer</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Aboriginal Health</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Anglicare SA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>ARSH Support Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Baptist Community Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Beyond blue limit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>CACP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Carer Allowance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Carer Support &amp; Respite Centre Inc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Carers Association of SA Inc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Carers link Barossa and Districts Inc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Catherine House</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>CBS (Community Bridging Services Inc)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Centacare</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Central Museum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Centrelink</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>CHAP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>CLO (Community Living Options Inc)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Clubhouse SA Inc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Community Ground Adelaide</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Community Health Centr</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Community Support Inc (CSI)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Correctional Services/Forensic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Country North Community Services Inc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>CSA (Child Sexual Assault)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>D/V Services (Domestic Violence)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>DASSA (Drug and Alcohol Services SA)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Day Therapy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Department for Child Protection (was Families SA)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Disability SA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Domiciliary Care Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>DVA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Eating Disorders Association of SA Inc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Free Here to Home</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>General Practice SA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Grow(SA) Inc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Headspace</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Helping Hand Aged Care Inc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Hospice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Housing SA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>HYPA (Helping Young People Achieve)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>ILEP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Life Without Barriers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Local Government</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>MAC - My Aged Care</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Matchworks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Meal Services (e.g. Meals on Wheels)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Mental Health Coalition of SA Inc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Metro Access</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Metro Community Living</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Metro Home link</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Mind (formerly Richmond Fellowship)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Mission Australia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Multicultural Services (e.g. Ethnic Link)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>NDIS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>NEAMI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Neighbourhood Access</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Northern CAMHS - CWYHS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Northern Carers Network</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Nunkuwarrin Yunti</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Nursing Services (e.g. RDNS)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Obsessive Compulsive Disorders Support Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Options</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Panic Anxiety Disorder Association Inc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Pathways to Recovery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Private Home Care/Gardening</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Public Trustee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Refugee Association</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Refugee Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Relationships Australia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Respite/Sitter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Roofs South Australia Housing Association Inc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>SA Hope Foundation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Salvation Army</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>SkyLight (Formerly Mental Illness Fellowship of SA Inc)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Support Group (Religious, Cancer etc)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Surveillance/Personal Alarms</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Survivors of Torture &amp; Trauma Assist &amp; Rehab Svc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Transport</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Uniting Care Wesley</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Uniting SA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Unity Housing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Volunteer</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

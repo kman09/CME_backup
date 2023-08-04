@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Patient Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Patient Referral Layout</layout>
+        <sections>
+            <label>Klinisch</label>
+            <section>Clinical</section>
+        </sections>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Demografische Daten</label>
+            <section>Demographics</section>
+        </sections>
+        <sections>
+            <label>Notfallkontakt</label>
+            <section>Emergency Contact</section>
+        </sections>
+        <sections>
+            <label>Versicherung</label>
+            <section>Insurance</section>
+        </sections>
+        <sections>
+            <label>Anbieter</label>
+            <section>Provider</section>
+        </sections>
+        <sections>
+            <label>Überweisung</label>
+            <section>Referral</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+</CustomObjectTranslation>

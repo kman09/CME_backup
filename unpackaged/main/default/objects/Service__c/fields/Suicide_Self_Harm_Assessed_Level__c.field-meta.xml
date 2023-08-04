@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Suicide_Self_Harm_Assessed_Level__c</fullName>
+    <externalId>false</externalId>
+    <label>Suicide / Self Harm (Assessed Level)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>High - Frequent, Intense, Enduring</fullName>
+                <default>false</default>
+                <label>High - Frequent, Intense, Enduring</label>
+            </value>
+            <value>
+                <fullName>Low - Mild, Limited, Frequency and Intensity</fullName>
+                <default>false</default>
+                <label>Low - Mild, Limited, Frequency and Intensity</label>
+            </value>
+            <value>
+                <fullName>Medium - Frequent, Limitedintensity and Duration</fullName>
+                <default>false</default>
+                <label>Medium - Frequent, Limitedintensity and Duration</label>
+            </value>
+            <value>
+                <fullName>No Risk</fullName>
+                <default>false</default>
+                <label>No Risk</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

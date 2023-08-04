@@ -1,0 +1,105 @@
+<!-- 
+@description: Lightning web component using Fullcalendar.io js library to display most recent events
+@author: Brahmaji tammana from www.auraenabled.com 
+@jslibrary: https://fullcalendar.io/ -->
+<template>
+
+    <!-- Spinner to show on waiting screens -->
+    
+    <lightning-card variant="Narrow" title="Appointments" icon-name="standard:event">
+        
+        <div class="slds-wrap slds-theme_default">
+
+            <div class="slds-clearfix" if:false={isCommunity} style="margin: 5px;">
+                <div class="slds-float_right">
+                    <lightning-combobox
+                            name="appointments"
+                            class="appointmentCls"
+                            value={value}
+                            options={options}
+                            onchange={fetchAppointments} style="display:inline-block"></lightning-combobox>
+                    <lightning-button-group class="slds-p-around_medium slds-m-right_xx-small">
+                        
+                        <lightning-button variant="brand"  label="New Appointment"
+                            onclick={openEventPage}></lightning-button>
+                        <lightning-button variant="neutral"  label="Refresh"
+                            onclick={fetchAppointments}></lightning-button>
+                    </lightning-button-group>
+                </div>
+            </div>
+
+            
+        </div>
+        <div id="calendar" class="fullcalendarjs slds-p-around_large" style="padding-top: 0px;"></div>
+        <template if:true={openEvent}>
+            <div data-modal="custommodal" class="modalclass">
+                <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open slds-modal_small"
+                    aria-labelledby="modal-heading-02" aria-modal="true" aria-describedby="modal-content-id-2">
+                    <div class="slds-modal__container">
+                        <header class="slds-modal__header">
+                            <h2 id="modal-heading-02" class="slds-modal__title slds-hyphenate">Appointment Details</h2>
+                        </header>
+                        <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-2">
+
+                            <lightning-card variant="Narrow">
+
+                                <div class="slds-grid slds-gutters slds-wrap slds-wrap">
+                                    <div class="slds-size_1-of-1 slds-large-size_6-of-12 left_space view_details">
+                                        <div class="main1">Client</div>
+                                        <div class="descp">{selectedEvent.client}</div>
+                                    </div>
+                                    <div class="slds-size_1-of-1 slds-large-size_6-of-12 view_details">
+                                        <div class="main1">Subject</div>
+                                        <div class="descp">{selectedEvent.title}</div>
+                                    </div>
+                                    <div class="slds-size_1-of-1 slds-large-size_6-of-12 left_space view_details">
+                                        <div class="main1">Type</div>
+                                        <div class="descp">{selectedEvent.type}</div>
+                                    </div>
+                                    <div class="slds-size_1-of-1 slds-large-size_6-of-12 view_details">
+                                        <div class="main1">Status</div>
+                                        <div class="descp">{selectedEvent.status}</div>
+                                    </div>
+                                    <div class="slds-size_1-of-1 slds-large-size_6-of-12 view_details">
+                                        <div class="main1">Start Date/Time</div>
+                                        <div class="descp">
+                                            <lightning-formatted-date-time value={selectedEvent.start} year="numeric"
+                                                month="numeric" day="numeric" hour="2-digit" minute="2-digit"
+                                                hour12=false></lightning-formatted-date-time>
+                                        </div>
+                                    </div>
+                                    <div class="slds-size_1-of-1 slds-large-size_6-of-12 left_space view_details">
+                                        <div class="main1">End Date/Time</div>
+                                        <div class="descp">
+                                            <lightning-formatted-date-time value={selectedEvent.end} year="numeric"
+                                                month="numeric" day="numeric" hour="2-digit" minute="2-digit"
+                                                hour12=false></lightning-formatted-date-time>
+                                        </div>
+                                    </div>
+                                    <div class="slds-size_1-of-1 slds-large-size_6-of-12 left_space view_details">
+                                        <div class="main1">Location</div>
+                                        <div class="descp">{selectedEvent.location}</div>
+                                    </div>
+                                    <div class="slds-size_1-of-1 slds-large-size_6-of-12 left_space view_details">
+                                        <div class="main1">Description</div>
+                                        <div class="descp">{selectedEvent.description}</div>
+                                    </div>
+                                </div>
+
+                            </lightning-card>
+
+                        </div>
+                        <footer class="slds-modal__footer">
+                            <button class="slds-button slds-button_brand" value={selectedEvent.id}
+                                onclick={handleEventClick}>Open Detail Page</button>
+
+                            <button class="slds-button slds-float_right slds-button_brand" style="display:block;"
+                                onclick={closeEventDetailModal}>Close</button>
+                        </footer>
+                    </div>
+                </section>
+                <div class="slds-backdrop slds-backdrop_open"></div>
+            </div>
+        </template>
+    </lightning-card>
+</template>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <assignments>
+        <name>Update_Birthdate_Text</name>
+        <label>Update Birthdate Text</label>
+        <locationX>176</locationX>
+        <locationY>311</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Birthdate_Text__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>FormattedBirthdate</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>UpdateStatusToDeceased</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>UpdateStatusToDeceased</name>
+        <label>UpdateStatusToDeceased</label>
+        <locationX>176</locationX>
+        <locationY>431</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Status__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>CheckDeceasedDate</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <environments>Default</environments>
+    <formulas>
+        <name>CheckDeceasedDate</name>
+        <dataType>String</dataType>
+        <expression>IF(NOT(ISBLANK({!$Record.HealthCloudGA__DeceasedDate__pc})) &amp;&amp; ISCHANGED({!$Record.HealthCloudGA__DeceasedDate__pc}),&#39;Deceased&#39;,TEXT({!$Record.Status__c}))</expression>
+    </formulas>
+    <formulas>
+        <name>FormattedBirthdate</name>
+        <dataType>String</dataType>
+        <expression>IF(NOT(ISBLANK({!$Record.PersonBirthdate})),     TEXT(DAY({!$Record.PersonBirthdate}))+ &quot;/&quot; + TEXT(MONTH({!$Record.PersonBirthdate}))+ &quot;/&quot; + TEXT(YEAR({!$Record.PersonBirthdate})),&#39;&#39;)</expression>
+    </formulas>
+    <interviewLabel>Account Before Insert Update {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Account Before Insert Update</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Update_Birthdate_Text</targetReference>
+        </connector>
+        <object>Account</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

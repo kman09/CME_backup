@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Enrollment/Disenrollment</fullName>
+        <default>false</default>
+        <label>Enrollment/Disenrollment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Benefit Coverage</fullName>
+        <default>false</default>
+        <label>Benefit Coverage</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Service</fullName>
+        <default>false</default>
+        <label>Customer Service</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Care Quality</fullName>
+        <default>false</default>
+        <label>Care Quality</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+</StandardValueSet>

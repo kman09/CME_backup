@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Is Pension a Main Source of Income? --></label>
+        <name>Is_Pension_a_Main_Source_of_Income__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Significant Other</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Significant Others</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Significant Other Layout</layout>
+        <sections>
+            <label><!-- ACD Substitute Decision Maker Details --></label>
+            <section>ACD Substitute Decision Maker Details</section>
+        </sections>
+        <sections>
+            <label><!-- Communication Details --></label>
+            <section>Communication Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Personal Detail of Significant Other --></label>
+            <section>Personal Detail of Significant Other</section>
+        </sections>
+        <sections>
+            <label><!-- Relationship Details --></label>
+            <section>Relationship Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Both the ACD Substitute decision maker or Person responsible is true. Only one can be true. --></errorMessage>
+        <name>ACD_Substitute_Decision_Maker</name>
+    </validationRules>
+</CustomObjectTranslation>

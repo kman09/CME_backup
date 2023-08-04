@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Alert Sub Type --></label>
+        <name>Alert_Sub_Type__c</name>
+        <picklistValues>
+            <masterLabel>0301 Potentially Dangerous Animal on Premises</masterLabel>
+            <translation><!-- 0301 Potentially Dangerous Animal on Premises --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0302 Potentially Dangerous Person on Premises</masterLabel>
+            <translation><!-- 0302 Potentially Dangerous Person on Premises --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0303 Potentially Dangerous Environment</masterLabel>
+            <translation><!-- 0303 Potentially Dangerous Environment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0401 Allergy</masterLabel>
+            <translation><!-- 0401 Allergy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0402 Dietary Alert</masterLabel>
+            <translation><!-- 0402 Dietary Alert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0403 Infectious Condition</masterLabel>
+            <translation><!-- 0403 Infectious Condition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0404 Adverse Drug Reaction</masterLabel>
+            <translation><!-- 0404 Adverse Drug Reaction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0405 Serious Medical Condition</masterLabel>
+            <translation><!-- 0405 Serious Medical Condition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0406 Drug Seeking Behaviour</masterLabel>
+            <translation><!-- 0406 Drug Seeking Behaviour --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0408 Clozapine</masterLabel>
+            <translation><!-- 0408 Clozapine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0701 At Risk of Abuse</masterLabel>
+            <translation><!-- 0701 At Risk of Abuse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0702 At Risk of Self harm</masterLabel>
+            <translation><!-- 0702 At Risk of Self harm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0703 Suicidal Alert</masterLabel>
+            <translation><!-- 0703 Suicidal Alert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0704 Violent / Destructive</masterLabel>
+            <translation><!-- 0704 Violent / Destructive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0705 Weapon (Include Firearm)</masterLabel>
+            <translation><!-- 0705 Weapon (Include Firearm) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0706 Protocol / Standing Order</masterLabel>
+            <translation><!-- 0706 Protocol / Standing Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0707 Heatwave Vulnerability</masterLabel>
+            <translation><!-- 0707 Heatwave Vulnerability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0708 Fire</masterLabel>
+            <translation><!-- 0708 Fire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0709 Absconding</masterLabel>
+            <translation><!-- 0709 Absconding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0710 Nutrition</masterLabel>
+            <translation><!-- 0710 Nutrition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0711 Falls</masterLabel>
+            <translation><!-- 0711 Falls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0712 Pressure Injury</masterLabel>
+            <translation><!-- 0712 Pressure Injury --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

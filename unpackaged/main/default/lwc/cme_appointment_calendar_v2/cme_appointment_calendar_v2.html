@@ -1,0 +1,142 @@
+<!-- 
+@description: Lightning web component using Fullcalendar.io js library to display most recent events
+@author: Brahmaji tammana from www.auraenabled.com 
+@jslibrary: https://fullcalendar.io/ -->
+<template>
+
+    <!-- Spinner to show on waiting screens -->
+    
+    <lightning-card variant="Narrow" title="Appointments" icon-name="standard:event">
+        
+        <div class="slds-wrap slds-theme_default">
+
+            <div class="slds-clearfix" style="margin: 5px;" if:false={isCommunity}>
+                <div class="slds-float_right">
+                    <lightning-combobox
+                            name="appointments"
+                            class="appointmentCls"
+                            value={value}
+                            options={options}
+                            onchange={fetchAppointments} style="display:inline-block"
+                            ></lightning-combobox>
+                    <lightning-button-group class="slds-p-around_medium slds-m-right_xx-small">
+                        <lightning-button variant="brand"  label="New Appointment"
+                            onclick={openEventPage}></lightning-button>
+                        <lightning-button variant="neutral"  label="Refresh"
+                            onclick={fetchAppointments}></lightning-button>
+                    </lightning-button-group>
+                </div>
+            </div>
+
+            
+        </div>
+        <div id="calendar" class="fullcalendarjs slds-p-around_large" style="padding-top: 0px;"></div>
+        <template if:true={openEvent}>
+            <div data-modal="custommodal" class="modalclass">
+                <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open slds-modal_small"
+                    aria-labelledby="modal-heading-02" aria-modal="true" aria-describedby="modal-content-id-2">
+                    <div class="slds-modal__container">
+                        <header class="slds-modal__header">
+                            <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close" onclick={closeEventDetailModal}>
+                                <lightning-icon icon-name="utility:close"
+                                    alternative-text="close"
+                                    variant="inverse"
+                                    size="small" ></lightning-icon>
+                                <span class="slds-assistive-text">Close</span>
+                            </button>
+                            <h2 id="modal-heading-02" class="slds-modal__title slds-hyphenate">Appointment Details</h2>
+                        </header>
+                        <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-2" style="overflow: visible !important;">
+
+                            <div class="slds-grid slds-wrap slds-wrap slds-p-left_x-small">
+                                <div class="slds-size_1-of-1 slds-large-size_6-of-12 slds-p-right_x-small slds-m-bottom_small">
+                                    <div class="main1">Client</div>
+                                    <div class="descp">{currentUserName}</div>
+                                </div>
+                                <div class="slds-size_1-of-1 slds-large-size_6-of-12 slds-p-right_x-small slds-m-bottom_small">
+                                    <div class="main1">Doctor</div>
+                                    <div class="descp">Dr. J. Appleseed</div>
+                                </div>
+                                <div class="slds-size_1-of-1 slds-large-size_6-of-12 slds-p-right_x-small slds-m-bottom_small">
+                                    <div class="main1">Type</div>
+                                    <div class="descp">{selectedEvent.type}</div>
+                                </div>
+                                <div class="slds-size_1-of-1 slds-large-size_6-of-12 slds-p-right_x-small slds-m-bottom_small">
+                                    <div class="main1">Status</div>
+                                    <div class="descp">{selectedEvent.status}</div>
+                                </div>
+                                <div class="slds-size_1-of-1 slds-large-size_6-of-12 slds-p-right_x-small slds-m-bottom_small">
+                                    <div class="main1">Start Date/Time</div>
+                                    <div class="descp">
+                                        <lightning-formatted-date-time value={selectedEvent.start} year="numeric"
+                                            month="numeric" day="numeric" hour="2-digit" minute="2-digit"
+                                            hour12=false></lightning-formatted-date-time>
+                                    </div>
+                                </div>
+                                <div class="slds-size_1-of-1 slds-large-size_6-of-12 slds-p-right_x-small slds-m-bottom_small">
+                                    <div class="main1">End Date/Time</div>
+                                    <div class="descp">
+                                        <lightning-formatted-date-time value={selectedEvent.end} year="numeric"
+                                            month="numeric" day="numeric" hour="2-digit" minute="2-digit"
+                                            hour12=false></lightning-formatted-date-time>
+                                    </div>
+                                </div>
+                                <div class="slds-size_1-of-1 slds-p-right_x-small slds-m-bottom_small" if:true={allowEdit}>
+                                    <div class="main1">Alternative Timeslot</div>
+                                    <lightning-combobox
+                                            name="timeslot"
+                                            label="Alternative Timeslot"
+                                            value={selectedTimeslot}
+                                            placeholder="Select Timeslot"
+                                            options={schedOptions}
+                                            onchange={handleTimeslotChange}
+                                            variant="label-hidden"
+                                            ></lightning-combobox>
+                                </div>
+                                <div class="slds-size_1-of-1 slds-large-size_6-of-12 slds-p-right_x-small slds-m-bottom_small">
+                                    <div class="main1">Location</div>
+                                    <div class="descp">{selectedEvent.location}</div>
+                                </div>
+                                <div class="slds-size_1-of-1 slds-large-size_6-of-12 slds-p-right_x-small slds-m-bottom_small">
+                                    <div class="main1">Description</div>
+                                    <div class="descp">{selectedEvent.description}</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <footer class="slds-modal__footer">
+                            <button class="slds-button slds-button_brand" value={selectedEvent.id}
+                                onclick={handleEventClick} if:false={isCommunity}>Open Detail Page</button>
+
+                            <button
+                                if:true={allowEdit}
+                                class="slds-button slds-button_outline-brand"
+                                onclick={toggleEditMode}
+                                >
+                                Cancel
+                            </button>
+
+                            <button
+                                if:true={allowEdit}
+                                class="slds-button slds-button_brand"
+                                onclick={handleSaveChangesEventClick}
+                                >
+                                Save
+                            </button>
+
+                            <button
+                                if:false={allowEdit}
+                                class="slds-button slds-button_brand"
+                                onclick={toggleEditMode}
+                                >
+                                Suggest a New Time
+                            </button>
+
+                        </footer>
+                    </div>
+                </section>
+                <div class="slds-backdrop slds-backdrop_open"></div>
+            </div>
+        </template>
+    </lightning-card>
+</template>

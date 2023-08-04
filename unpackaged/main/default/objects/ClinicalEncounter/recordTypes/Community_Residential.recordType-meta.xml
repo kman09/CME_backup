@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Community_Residential</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Episode_Compact_Layout</compactLayoutAssignment>
+    <label>Community Residential</label>
+    <picklistValues>
+        <picklist>AdmissionSource</picklist>
+        <values>
+            <fullName>Another Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emergency Department</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Practitioner Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-Hospital Birth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nursing Home</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Medical Practitioner Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outpatient Department</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Psychiatric Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rehabilitation Facility</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Category</picklist>
+        <values>
+            <fullName>Ambulatory</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Emergency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inpatient Encounter</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DietPreference</picklist>
+        <values>
+            <fullName>Dairy-Free</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gluten-Free</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Halal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kosher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nut-Free</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vegan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vegetarian</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Discharged_to__c</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lives_with__c</picklist>
+        <values>
+            <fullName>DCP Care Arrangement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Father alone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Father and StepMother%2Fdefacto%2Fother</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foster parents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Independent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Institution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mother alone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mother and Stepfather%2Fdefacto%2Fother</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relatives</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Two adoptive parents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Two biological parents</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Living_Arrangements__c</picklist>
+        <values>
+            <fullName>Lives alone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lives with family</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lives with others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Applicable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not stated %2FInadequately described</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MH_Legal_Status__c</picklist>
+        <values>
+            <fullName>Involuntary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voluntary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Other_service__c</picklist>
+        <values>
+            <fullName>Aboriginal Health</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Previous_Psychiatric_History__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason_for_Discharge__c</picklist>
+        <values>
+            <fullName>Client Died</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Moved out of Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Terminated Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discharge%2FTransfer to another Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Episode Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required - In Residential Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required - Problem Resolved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referred to Other Residential Care</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Referral_Source__c</picklist>
+        <values>
+            <fullName>01 Self</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>02 Family%2C Significant Other%2C Friend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>03 General Practitioner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>04 Specialised Aged%2FDisability Assessment Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>06 Community Nursing Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>07 Hospital - Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>08 Psychiatric%2FMental Health Service Facility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11 Govt Residential Aged Care Facility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12 Aboriginal Health Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>14 Other Community Based Govt Medical%2FHealth Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15 Other Govt Medical Health Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>16 Other Govt Community Based Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>17 Hospital -Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>18 Non-Govt Residential Aged Care Facility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>19 Other non-Govt Medical%2FHealth Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20 Other non-Govt Community Based Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>21 Justice System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>22 Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>99 Not Stated%2FInadequately Described</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ServiceType</picklist>
+        <values>
+            <fullName>Homoeopathy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meditation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Naturopathy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reflexology</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SpecialCourtesy</picklist>
+        <values>
+            <fullName>Extended</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Normal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIP</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

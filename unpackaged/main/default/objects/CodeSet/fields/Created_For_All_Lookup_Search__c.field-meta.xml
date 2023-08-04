@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Created_For_All_Lookup_Search__c</fullName>
+    <defaultValue>&#39;All&#39;</defaultValue>
+    <description>Hidden field, please do not add to the page layout. Created for search ALL code set in a lookup</description>
+    <externalId>false</externalId>
+    <label>Created For All Lookup Search</label>
+    <length>3</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Further Information</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Further Informations</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Community Treatment Order Level 1 Layout</layout>
+        <sections>
+            <label><!-- Community Treatment Order Details --></label>
+            <section>Community Treatment Order Details</section>
+        </sections>
+        <sections>
+            <label><!-- Confirmation of Examination of Person Details --></label>
+            <section>Confirmation of Examination of Person Details</section>
+        </sections>
+        <sections>
+            <label><!-- Confirmation of a Treatment Order Details --></label>
+            <section>Confirmation of a Treatment Order Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Examination of Person Details --></label>
+            <section>Examination of Person Details</section>
+        </sections>
+        <sections>
+            <label><!-- Health Professional Making Order Details --></label>
+            <section>Health Professional Making Order Details</section>
+        </sections>
+        <sections>
+            <label><!-- Psychiatrist or Authorised Medical Practioner Reviewing The Order Details --></label>
+            <section>Psychiatrist or Authorised Medical Practioner Reviewing The Order Details</section>
+        </sections>
+        <sections>
+            <label><!-- Receipt of Make Order (MRMHA-A) Details --></label>
+            <section>Receipt of Make Order (MRMHA-A) Details</section>
+        </sections>
+        <sections>
+            <label><!-- Revocation Examination Of Person Details --></label>
+            <section>Revocation Examination Of Person Details</section>
+        </sections>
+        <sections>
+            <label><!-- Revocation of a Treatment Order Details --></label>
+            <section>Revocation of a Treatment Order Details</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Community Treatment Order Level 1 --></label>
+        <name>Community_Treatment_Order_Level_1</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Reason for Non Compliance is required when Complaint is No. --></errorMessage>
+        <name>Complaint_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Reason for Non Compliance is required when Complaint is No. --></errorMessage>
+        <name>Confirmation_Complaint_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Date Entered of Confirmation should be less than future date and greater than Commencement Date. --></errorMessage>
+        <name>Date_Entered_Confirmation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Date Entered of Make Order should be less than future date and greater than Commencement Date. --></errorMessage>
+        <name>Date_Entered_Make_Order</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter a valid date. Order Expired date can not be more than 42 days from the order entered date --></errorMessage>
+        <name>Order_Expiry_Date_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Reason for Non Compliance is required when Complaint is No. --></errorMessage>
+        <name>Revocation_Complaint_Validation</name>
+    </validationRules>
+</CustomObjectTranslation>

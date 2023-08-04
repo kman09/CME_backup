@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Service</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Services</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Comprehensive Assessment Service Layout</layout>
+        <sections>
+            <label><!-- Additional Informations --></label>
+            <section>Additional Informations</section>
+        </sections>
+        <sections>
+            <label><!-- Children Safety Concerns Details --></label>
+            <section>Children Safety Concerns Details</section>
+        </sections>
+        <sections>
+            <label><!-- Clinical Information Details --></label>
+            <section>Clinical Information Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Notifications &amp; Mandatory Reporting Details --></label>
+            <section>Notifications &amp; Mandatory Reporting Details</section>
+        </sections>
+        <sections>
+            <label><!-- Risk Details --></label>
+            <section>Risk Details</section>
+        </sections>
+        <sections>
+            <label><!-- SAPOL Details --></label>
+            <section>SAPOL Details</section>
+        </sections>
+        <sections>
+            <label><!-- Was this contact Initiated due to Covid-19 concerns? --></label>
+            <section>Was this contact Initiated due to Covid-19 concerns?</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Education / Information Service Layout</layout>
+        <sections>
+            <label><!-- Bushfire 2019/2022 Details --></label>
+            <section>Bushfire 2019/2022 Details</section>
+        </sections>
+        <sections>
+            <label><!-- Clinical Information Details --></label>
+            <section>Clinical Information Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- SAPOL Details --></label>
+            <section>SAPOL Details</section>
+        </sections>
+        <sections>
+            <label><!-- Was this contact Initiated due to Covid-19 concerns? --></label>
+            <section>Was this contact Initiated due to Covid-19 concerns?</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Education / Information Service Layout For Community</layout>
+        <sections>
+            <label><!-- Bushfire 2019/2022 Details --></label>
+            <section>Bushfire 2019/2022 Details</section>
+        </sections>
+        <sections>
+            <label><!-- Clinical Information Details --></label>
+            <section>Clinical Information Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- SAPOL Details --></label>
+            <section>SAPOL Details</section>
+        </sections>
+        <sections>
+            <label><!-- Was this contact Initiated due to Covid-19 concerns? --></label>
+            <section>Was this contact Initiated due to Covid-19 concerns?</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Physical Health Assessment Service Layout</layout>
+        <sections>
+            <label><!-- Blood Pressure Details --></label>
+            <section>Blood Pressure Details</section>
+        </sections>
+        <sections>
+            <label><!-- Blood Sugar and Oxygen Details --></label>
+            <section>Blood Sugar and Oxygen Details</section>
+        </sections>
+        <sections>
+            <label><!-- Body Mass Index Details --></label>
+            <section>Body Mass Index Details</section>
+        </sections>
+        <sections>
+            <label><!-- Clinical and Bio Medical Information Details --></label>
+            <section>Clinical and Bio Medical Information Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Questions to ask or consider for all Antipsycotics Details --></label>
+            <section>Questions to ask or consider for all Antipsycotics Details</section>
+        </sections>
+        <sections>
+            <label><!-- SAPOL Details --></label>
+            <section>SAPOL Details</section>
+        </sections>
+        <sections>
+            <label><!-- Urinanalysis Details --></label>
+            <section>Urinanalysis Details</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Comprehensive Assessment --></label>
+        <name>Comprehensive_Assessment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Education / Information --></label>
+        <name>Education_Information</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Physical Health Assessment --></label>
+        <name>Physical_Health_Assessment</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Random BGL should be from 1.00 to 40.00. --></errorMessage>
+        <name>Blood_Sugar_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Absconding (Category Level) is mandatory. --></errorMessage>
+        <name>Category_Required_on_Absconding</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Suicide / Self Harm (Category Level) is mandatory. --></errorMessage>
+        <name>Category_Required_on_Suicide_Self_Harm</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Voilence / Aggregation (Category Level) is mandatory. --></errorMessage>
+        <name>Category_Required_on_Violence</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Vulnerability (Category Level) is mandatory. --></errorMessage>
+        <name>Category_Required_on_Vulnerability</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Contact Date Time can not be future date. --></errorMessage>
+        <name>Contact_Date_Time_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 1st Blood Pressure Diastolic should have some value. --></errorMessage>
+        <name>Diastolic_BP_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Height should be between 0.0 to 2.50. --></errorMessage>
+        <name>Height_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Manual Pulse should be between 0 to 500. --></errorMessage>
+        <name>Manual_Pulse_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- SaO2% should be from 85.00 to 100.00. --></errorMessage>
+        <name>Oxygen_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Respiration should be between 0 to 200. --></errorMessage>
+        <name>Respiration_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 1st Blood Pressure Systolic should have some value. --></errorMessage>
+        <name>Systolic_BP_validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Temperature should be between 0.0 to 60.0. --></errorMessage>
+        <name>Temperature_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Waist Circumference should be between 0.0 to 200.0 --></errorMessage>
+        <name>Waist_Circumference_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Weight should be between 0.0 to 300.0. --></errorMessage>
+        <name>Weight_Validation</name>
+    </validationRules>
+</CustomObjectTranslation>

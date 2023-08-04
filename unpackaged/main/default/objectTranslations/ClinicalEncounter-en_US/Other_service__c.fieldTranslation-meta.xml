@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Other service --></label>
+        <name>Other_service__c</name>
+        <picklistValues>
+            <masterLabel>ARSH Support Services</masterLabel>
+            <translation><!-- ARSH Support Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aboriginal Health</masterLabel>
+            <translation><!-- Aboriginal Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anglicare SA</masterLabel>
+            <translation><!-- Anglicare SA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baptist Community Service</masterLabel>
+            <translation><!-- Baptist Community Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beyond blue limit</masterLabel>
+            <translation><!-- Beyond blue limit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CACP</masterLabel>
+            <translation><!-- CACP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CBS (Community Bridging Services Inc)</masterLabel>
+            <translation><!-- CBS (Community Bridging Services Inc) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHAP</masterLabel>
+            <translation><!-- CHAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLO (Community Living Options Inc)</masterLabel>
+            <translation><!-- CLO (Community Living Options Inc) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSA (Child Sexual Assault)</masterLabel>
+            <translation><!-- CSA (Child Sexual Assault) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carer Allowance</masterLabel>
+            <translation><!-- Carer Allowance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carer Support &amp; Respite Centre Inc</masterLabel>
+            <translation><!-- Carer Support &amp; Respite Centre Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carers Association of SA Inc</masterLabel>
+            <translation><!-- Carers Association of SA Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carers link Barossa and Districts Inc</masterLabel>
+            <translation><!-- Carers link Barossa and Districts Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Catherine House</masterLabel>
+            <translation><!-- Catherine House --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Centacare</masterLabel>
+            <translation><!-- Centacare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Museum</masterLabel>
+            <translation><!-- Central Museum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Centrelink</masterLabel>
+            <translation><!-- Centrelink --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clubhouse SA Inc</masterLabel>
+            <translation><!-- Clubhouse SA Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community Ground Adelaide</masterLabel>
+            <translation><!-- Community Ground Adelaide --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community Health Centr</masterLabel>
+            <translation><!-- Community Health Centr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community Support Inc (CSI)</masterLabel>
+            <translation><!-- Community Support Inc (CSI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correctional Services/Forensic</masterLabel>
+            <translation><!-- Correctional Services/Forensic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Country North Community Services Inc</masterLabel>
+            <translation><!-- Country North Community Services Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D/V Services (Domestic Violence)</masterLabel>
+            <translation><!-- D/V Services (Domestic Violence) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DASSA (Drug and Alcohol Services SA)</masterLabel>
+            <translation><!-- DASSA (Drug and Alcohol Services SA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DVA</masterLabel>
+            <translation><!-- DVA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day Therapy</masterLabel>
+            <translation><!-- Day Therapy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Department for Child Protection (was Families SA)</masterLabel>
+            <translation><!-- Department for Child Protection (was Families SA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disability SA</masterLabel>
+            <translation><!-- Disability SA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domiciliary Care Service</masterLabel>
+            <translation><!-- Domiciliary Care Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eating Disorders Association of SA Inc</masterLabel>
+            <translation><!-- Eating Disorders Association of SA Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Free Here to Home</masterLabel>
+            <translation><!-- Free Here to Home --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Practice SA</masterLabel>
+            <translation><!-- General Practice SA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grow(SA) Inc</masterLabel>
+            <translation><!-- Grow(SA) Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HYPA (Helping Young People Achieve)</masterLabel>
+            <translation><!-- HYPA (Helping Young People Achieve) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Headspace</masterLabel>
+            <translation><!-- Headspace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Helping Hand Aged Care Inc</masterLabel>
+            <translation><!-- Helping Hand Aged Care Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospice</masterLabel>
+            <translation><!-- Hospice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Housing SA</masterLabel>
+            <translation><!-- Housing SA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ILEP</masterLabel>
+            <translation><!-- ILEP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life Without Barriers</masterLabel>
+            <translation><!-- Life Without Barriers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local Government</masterLabel>
+            <translation><!-- Local Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAC - My Aged Care</masterLabel>
+            <translation><!-- MAC - My Aged Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matchworks</masterLabel>
+            <translation><!-- Matchworks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meal Services (e.g. Meals on Wheels)</masterLabel>
+            <translation><!-- Meal Services (e.g. Meals on Wheels) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mental Health Coalition of SA Inc</masterLabel>
+            <translation><!-- Mental Health Coalition of SA Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metro Access</masterLabel>
+            <translation><!-- Metro Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metro Community Living</masterLabel>
+            <translation><!-- Metro Community Living --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metro Home link</masterLabel>
+            <translation><!-- Metro Home link --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mind (formerly Richmond Fellowship)</masterLabel>
+            <translation><!-- Mind (formerly Richmond Fellowship) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mission Australia</masterLabel>
+            <translation><!-- Mission Australia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multicultural Services (e.g. Ethnic Link)</masterLabel>
+            <translation><!-- Multicultural Services (e.g. Ethnic Link) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NDIS</masterLabel>
+            <translation><!-- NDIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEAMI</masterLabel>
+            <translation><!-- NEAMI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neighbourhood Access</masterLabel>
+            <translation><!-- Neighbourhood Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northern CAMHS - CWYHS</masterLabel>
+            <translation><!-- Northern CAMHS - CWYHS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northern Carers Network</masterLabel>
+            <translation><!-- Northern Carers Network --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nunkuwarrin Yunti</masterLabel>
+            <translation><!-- Nunkuwarrin Yunti --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nursing Services (e.g. RDNS)</masterLabel>
+            <translation><!-- Nursing Services (e.g. RDNS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Obsessive Compulsive Disorders Support Service</masterLabel>
+            <translation><!-- Obsessive Compulsive Disorders Support Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Options</masterLabel>
+            <translation><!-- Options --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Panic Anxiety Disorder Association Inc</masterLabel>
+            <translation><!-- Panic Anxiety Disorder Association Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pathways to Recovery</masterLabel>
+            <translation><!-- Pathways to Recovery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Home Care/Gardening</masterLabel>
+            <translation><!-- Private Home Care/Gardening --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Trustee</masterLabel>
+            <translation><!-- Public Trustee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refugee Association</masterLabel>
+            <translation><!-- Refugee Association --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refugee Services</masterLabel>
+            <translation><!-- Refugee Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relationships Australia</masterLabel>
+            <translation><!-- Relationships Australia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respite/Sitter</masterLabel>
+            <translation><!-- Respite/Sitter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roofs South Australia Housing Association Inc</masterLabel>
+            <translation><!-- Roofs South Australia Housing Association Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Hope Foundation</masterLabel>
+            <translation><!-- SA Hope Foundation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salvation Army</masterLabel>
+            <translation><!-- Salvation Army --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SkyLight (Formerly Mental Illness Fellowship of SA Inc)</masterLabel>
+            <translation><!-- SkyLight (Formerly Mental Illness Fellowship of SA Inc) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Group (Religious, Cancer etc)</masterLabel>
+            <translation><!-- Support Group (Religious, Cancer etc) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surveillance/Personal Alarms</masterLabel>
+            <translation><!-- Surveillance/Personal Alarms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Survivors of Torture &amp; Trauma Assist &amp; Rehab Svc</masterLabel>
+            <translation><!-- Survivors of Torture &amp; Trauma Assist &amp; Rehab Svc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transport</masterLabel>
+            <translation><!-- Transport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uniting Care Wesley</masterLabel>
+            <translation><!-- Uniting Care Wesley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uniting SA</masterLabel>
+            <translation><!-- Uniting SA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unity Housing</masterLabel>
+            <translation><!-- Unity Housing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volunteer</masterLabel>
+            <translation><!-- Volunteer --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

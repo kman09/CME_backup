@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Aunt</masterLabel>
+            <translation><!-- Aunt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brother</masterLabel>
+            <translation><!-- Brother --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brother-in-law</masterLabel>
+            <translation><!-- Brother-in-law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daughter</masterLabel>
+            <translation><!-- Daughter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daughter-in-Law</masterLabel>
+            <translation><!-- Daughter-in-Law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Father</masterLabel>
+            <translation><!-- Father --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Former partner or Ex partner</masterLabel>
+            <translation><!-- Former partner or Ex partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foster Father</masterLabel>
+            <translation><!-- Foster Father --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foster Mother</masterLabel>
+            <translation><!-- Foster Mother --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Friend/Neighbour - female</masterLabel>
+            <translation><!-- Friend/Neighbour - female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Friend/Neighbour - male</masterLabel>
+            <translation><!-- Friend/Neighbour - male --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grandfather</masterLabel>
+            <translation><!-- Grandfather --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grandmother</masterLabel>
+            <translation><!-- Grandmother --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guardianship Care and Protection Order</masterLabel>
+            <translation><!-- Guardianship Care and Protection Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Husband/Male Partner</masterLabel>
+            <translation><!-- Husband/Male Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mother</masterLabel>
+            <translation><!-- Mother --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other relative - female - not listed elsewhere</masterLabel>
+            <translation><!-- Other relative - female - not listed elsewhere --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other relative - male - not listed elsewhere</masterLabel>
+            <translation><!-- Other relative - male - not listed elsewhere --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sister</masterLabel>
+            <translation><!-- Sister --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sister-in-law</masterLabel>
+            <translation><!-- Sister-in-law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Son</masterLabel>
+            <translation><!-- Son --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Son-in-Law</masterLabel>
+            <translation><!-- Son-in-Law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stepfather</masterLabel>
+            <translation><!-- Stepfather --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stepmother</masterLabel>
+            <translation><!-- Stepmother --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uncle</masterLabel>
+            <translation><!-- Uncle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wife/Female Partner</masterLabel>
+            <translation><!-- Wife/Female Partner --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

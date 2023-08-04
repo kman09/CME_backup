@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Alert_Sub_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Alert Sub Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Alert_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0301 Potentially Dangerous Animal on Premises</fullName>
+                <default>false</default>
+                <label>0301 Potentially Dangerous Animal on Premises</label>
+            </value>
+            <value>
+                <fullName>0302 Potentially Dangerous Person on Premises</fullName>
+                <default>false</default>
+                <label>0302 Potentially Dangerous Person on Premises</label>
+            </value>
+            <value>
+                <fullName>0303 Potentially Dangerous Environment</fullName>
+                <default>false</default>
+                <label>0303 Potentially Dangerous Environment</label>
+            </value>
+            <value>
+                <fullName>0401 Allergy</fullName>
+                <default>false</default>
+                <label>0401 Allergy</label>
+            </value>
+            <value>
+                <fullName>0402 Dietary Alert</fullName>
+                <default>false</default>
+                <label>0402 Dietary Alert</label>
+            </value>
+            <value>
+                <fullName>0403 Infectious Condition</fullName>
+                <default>false</default>
+                <label>0403 Infectious Condition</label>
+            </value>
+            <value>
+                <fullName>0404 Adverse Drug Reaction</fullName>
+                <default>false</default>
+                <label>0404 Adverse Drug Reaction</label>
+            </value>
+            <value>
+                <fullName>0405 Serious Medical Condition</fullName>
+                <default>false</default>
+                <label>0405 Serious Medical Condition</label>
+            </value>
+            <value>
+                <fullName>0406 Drug Seeking Behaviour</fullName>
+                <default>false</default>
+                <label>0406 Drug Seeking Behaviour</label>
+            </value>
+            <value>
+                <fullName>0408 Clozapine</fullName>
+                <default>false</default>
+                <label>0408 Clozapine</label>
+            </value>
+            <value>
+                <fullName>0701 At Risk of Abuse</fullName>
+                <default>false</default>
+                <label>0701 At Risk of Abuse</label>
+            </value>
+            <value>
+                <fullName>0702 At Risk of Self harm</fullName>
+                <default>false</default>
+                <label>0702 At Risk of Self harm</label>
+            </value>
+            <value>
+                <fullName>0703 Suicidal Alert</fullName>
+                <default>false</default>
+                <label>0703 Suicidal Alert</label>
+            </value>
+            <value>
+                <fullName>0704 Violent / Destructive</fullName>
+                <default>false</default>
+                <label>0704 Violent / Destructive</label>
+            </value>
+            <value>
+                <fullName>0705 Weapon (Include Firearm)</fullName>
+                <default>false</default>
+                <label>0705 Weapon (Include Firearm)</label>
+            </value>
+            <value>
+                <fullName>0706 Protocol / Standing Order</fullName>
+                <default>false</default>
+                <label>0706 Protocol / Standing Order</label>
+            </value>
+            <value>
+                <fullName>0707 Heatwave Vulnerability</fullName>
+                <default>false</default>
+                <label>0707 Heatwave Vulnerability</label>
+            </value>
+            <value>
+                <fullName>0708 Fire</fullName>
+                <default>false</default>
+                <label>0708 Fire</label>
+            </value>
+            <value>
+                <fullName>0709 Absconding</fullName>
+                <default>false</default>
+                <label>0709 Absconding</label>
+            </value>
+            <value>
+                <fullName>0710 Nutrition</fullName>
+                <default>false</default>
+                <label>0710 Nutrition</label>
+            </value>
+            <value>
+                <fullName>0711 Falls</fullName>
+                <default>false</default>
+                <label>0711 Falls</label>
+            </value>
+            <value>
+                <fullName>0712 Pressure Injury</fullName>
+                <default>false</default>
+                <label>0712 Pressure Injury</label>
+            </value>
+            <value>
+                <fullName>0303Potentially Dangerous Environment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>0303Potentially Dangerous Environment</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>0300 Environment/OH&amp;S Hazard</controllingFieldValue>
+            <valueName>0301 Potentially Dangerous Animal on Premises</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0300 Environment/OH&amp;S Hazard</controllingFieldValue>
+            <valueName>0302 Potentially Dangerous Person on Premises</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0300 Environment/OH&amp;S Hazard</controllingFieldValue>
+            <valueName>0303 Potentially Dangerous Environment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0400 Medical Alert</controllingFieldValue>
+            <valueName>0401 Allergy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0400 Medical Alert</controllingFieldValue>
+            <valueName>0402 Dietary Alert</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0400 Medical Alert</controllingFieldValue>
+            <valueName>0403 Infectious Condition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0400 Medical Alert</controllingFieldValue>
+            <valueName>0404 Adverse Drug Reaction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0400 Medical Alert</controllingFieldValue>
+            <valueName>0405 Serious Medical Condition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0400 Medical Alert</controllingFieldValue>
+            <valueName>0406 Drug Seeking Behaviour</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0400 Medical Alert</controllingFieldValue>
+            <valueName>0408 Clozapine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0700 Risk</controllingFieldValue>
+            <valueName>0701 At Risk of Abuse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0700 Risk</controllingFieldValue>
+            <valueName>0702 At Risk of Self harm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0700 Risk</controllingFieldValue>
+            <valueName>0703 Suicidal Alert</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0700 Risk</controllingFieldValue>
+            <valueName>0704 Violent / Destructive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0700 Risk</controllingFieldValue>
+            <valueName>0705 Weapon (Include Firearm)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0700 Risk</controllingFieldValue>
+            <valueName>0706 Protocol / Standing Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0700 Risk</controllingFieldValue>
+            <valueName>0707 Heatwave Vulnerability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0700 Risk</controllingFieldValue>
+            <valueName>0708 Fire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0700 Risk</controllingFieldValue>
+            <valueName>0709 Absconding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0700 Risk</controllingFieldValue>
+            <valueName>0710 Nutrition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0700 Risk</controllingFieldValue>
+            <valueName>0711 Falls</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0700 Risk</controllingFieldValue>
+            <valueName>0712 Pressure Injury</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

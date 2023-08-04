@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Facility_Service_Revocation__c</fullName>
+    <externalId>false</externalId>
+    <label>Facility / Service</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>RA Adelaide Clinic</fullName>
+                <default>false</default>
+                <label>RA Adelaide Clinic</label>
+            </value>
+            <value>
+                <fullName>BH Angaston</fullName>
+                <default>false</default>
+                <label>BH Angaston</label>
+            </value>
+            <value>
+                <fullName>YN Balaklava</fullName>
+                <default>false</default>
+                <label>YN Balaklava</label>
+            </value>
+            <value>
+                <fullName>LC Bordertown</fullName>
+                <default>false</default>
+                <label>LC Bordertown</label>
+            </value>
+            <value>
+                <fullName>YN Burra</fullName>
+                <default>false</default>
+                <label>YN Burra</label>
+            </value>
+            <value>
+                <fullName>EF Ceduna</fullName>
+                <default>false</default>
+                <label>EF Ceduna</label>
+            </value>
+            <value>
+                <fullName>YN Clare</fullName>
+                <default>false</default>
+                <label>YN Clare</label>
+            </value>
+            <value>
+                <fullName>CH Country Health</fullName>
+                <default>false</default>
+                <label>CH Country Health</label>
+            </value>
+            <value>
+                <fullName>CN ECMHS</fullName>
+                <default>false</default>
+                <label>CN ECMHS</label>
+            </value>
+            <value>
+                <fullName>NO FCMHS</fullName>
+                <default>false</default>
+                <label>NO FCMHS</label>
+            </value>
+            <value>
+                <fullName>FU Oodnadatta Health Services</fullName>
+                <default>false</default>
+                <label>FU Oodnadatta Health Services</label>
+            </value>
+            <value>
+                <fullName>YN Orroroo</fullName>
+                <default>false</default>
+                <label>YN Orroroo</label>
+            </value>
+            <value>
+                <fullName>LC Penola</fullName>
+                <default>false</default>
+                <label>LC Penola</label>
+            </value>
+            <value>
+                <fullName>RM Pinnaroo</fullName>
+                <default>false</default>
+                <label>RM Pinnaroo</label>
+            </value>
+            <value>
+                <fullName>YN Port Broughton</fullName>
+                <default>false</default>
+                <label>YN Port Broughton</label>
+            </value>
+            <value>
+                <fullName>YN Port Pirie</fullName>
+                <default>false</default>
+                <label>YN Port Pirie</label>
+            </value>
+            <value>
+                <fullName>FU Quorn</fullName>
+                <default>false</default>
+                <label>FU Quorn</label>
+            </value>
+            <value>
+                <fullName>RM Renmark</fullName>
+                <default>false</default>
+                <label>RM Renmark</label>
+            </value>
+            <value>
+                <fullName>YN Riverton</fullName>
+                <default>false</default>
+                <label>YN Riverton</label>
+            </value>
+            <value>
+                <fullName>FU Roxby Downs</fullName>
+                <default>false</default>
+                <label>FU Roxby Downs</label>
+            </value>
+            <value>
+                <fullName>SO FMC</fullName>
+                <default>false</default>
+                <label>SO FMC</label>
+            </value>
+            <value>
+                <fullName>YN Snowtown</fullName>
+                <default>false</default>
+                <label>YN Snowtown</label>
+            </value>
+            <value>
+                <fullName>YN Southern Yorke</fullName>
+                <default>false</default>
+                <label>YN Southern Yorke</label>
+            </value>
+            <value>
+                <fullName>BH Strathalbyn</fullName>
+                <default>false</default>
+                <label>BH Strathalbyn</label>
+            </value>
+            <value>
+                <fullName>EF Streaky Bay</fullName>
+                <default>false</default>
+                <label>EF Streaky Bay</label>
+            </value>
+            <value>
+                <fullName>EF Tumby Bay</fullName>
+                <default>false</default>
+                <label>EF Tumby Bay</label>
+            </value>
+            <value>
+                <fullName>RM Waikerie</fullName>
+                <default>false</default>
+                <label>RM Waikerie</label>
+            </value>
+            <value>
+                <fullName>FU Woomera Hospital</fullName>
+                <default>false</default>
+                <label>FU Woomera Hospital</label>
+            </value>
+            <value>
+                <fullName>EF Wudinna</fullName>
+                <default>false</default>
+                <label>EF Wudinna</label>
+            </value>
+            <value>
+                <fullName>AP Pukatja</fullName>
+                <default>false</default>
+                <label>AP Pukatja</label>
+            </value>
+            <value>
+                <fullName>AP Indulkana</fullName>
+                <default>false</default>
+                <label>AP Indulkana</label>
+            </value>
+            <value>
+                <fullName>BH Gawler</fullName>
+                <default>false</default>
+                <label>BH Gawler</label>
+            </value>
+            <value>
+                <fullName>HS AYTC Kurlana Tapa</fullName>
+                <default>false</default>
+                <label>HS AYTC Kurlana Tapa</label>
+            </value>
+            <value>
+                <fullName>NG UMHCC run by NEAMI</fullName>
+                <default>false</default>
+                <label>NG UMHCC run by NEAMI</label>
+            </value>
+            <value>
+                <fullName>NG Headspace</fullName>
+                <default>false</default>
+                <label>NG Headspace</label>
+            </value>
+            <value>
+                <fullName>NG Streetlink (Uniting Communities)</fullName>
+                <default>false</default>
+                <label>NG Streetlink (Uniting Communities)</label>
+            </value>
+            <value>
+                <fullName>SO Jamie Larcombe Centre</fullName>
+                <default>false</default>
+                <label>SO Jamie Larcombe Centre</label>
+            </value>
+            <value>
+                <fullName>NG Royal Flying Doctor Service</fullName>
+                <default>false</default>
+                <label>NG Royal Flying Doctor Service</label>
+            </value>
+            <value>
+                <fullName>SH SA Ambulance Service SAAS</fullName>
+                <default>false</default>
+                <label>SH SA Ambulance Service SAAS</label>
+            </value>
+            <value>
+                <fullName>CN Glenside</fullName>
+                <default>false</default>
+                <label>CN Glenside</label>
+            </value>
+            <value>
+                <fullName>BH Glenside R&amp;R</fullName>
+                <default>false</default>
+                <label>BH Glenside R&amp;R</label>
+            </value>
+            <value>
+                <fullName>WC Helen Mayo House</fullName>
+                <default>false</default>
+                <label>WC Helen Mayo House</label>
+            </value>
+            <value>
+                <fullName>SO ISCMHS</fullName>
+                <default>false</default>
+                <label>SO ISCMHS</label>
+            </value>
+            <value>
+                <fullName>NO JNH</fullName>
+                <default>false</default>
+                <label>NO JNH</label>
+            </value>
+            <value>
+                <fullName>RM Lameroo</fullName>
+                <default>false</default>
+                <label>RM Lameroo</label>
+            </value>
+            <value>
+                <fullName>PH Private Hospital</fullName>
+                <default>false</default>
+                <label>PH Private Hospital</label>
+            </value>
+            <value>
+                <fullName>NO LMHS</fullName>
+                <default>false</default>
+                <label>NO LMHS</label>
+            </value>
+            <value>
+                <fullName>SA SACAT</fullName>
+                <default>false</default>
+                <label>SA SACAT</label>
+            </value>
+            <value>
+                <fullName>YN CYP (Maitland)</fullName>
+                <default>false</default>
+                <label>YN CYP (Maitland)</label>
+            </value>
+            <value>
+                <fullName>NO MH</fullName>
+                <default>false</default>
+                <label>NO MH</label>
+            </value>
+            <value>
+                <fullName>LC Mt Gambier</fullName>
+                <default>false</default>
+                <label>LC Mt Gambier</label>
+            </value>
+            <value>
+                <fullName>RM Murray Bridge</fullName>
+                <default>false</default>
+                <label>RM Murray Bridge</label>
+            </value>
+            <value>
+                <fullName>NO NCMHS</fullName>
+                <default>false</default>
+                <label>NO NCMHS</label>
+            </value>
+            <value>
+                <fullName>NO NECMHS</fullName>
+                <default>false</default>
+                <label>NO NECMHS</label>
+            </value>
+            <value>
+                <fullName>SO NHS</fullName>
+                <default>false</default>
+                <label>SO NHS</label>
+            </value>
+            <value>
+                <fullName>NO Northgate House</fullName>
+                <default>false</default>
+                <label>NO Northgate House</label>
+            </value>
+            <value>
+                <fullName>SO OSCMHS</fullName>
+                <default>false</default>
+                <label>SO OSCMHS</label>
+            </value>
+            <value>
+                <fullName>YN Peterborough</fullName>
+                <default>false</default>
+                <label>YN Peterborough</label>
+            </value>
+            <value>
+                <fullName>FU Port Augusta</fullName>
+                <default>false</default>
+                <label>FU Port Augusta</label>
+            </value>
+            <value>
+                <fullName>EF Port Lincoln</fullName>
+                <default>false</default>
+                <label>EF Port Lincoln</label>
+            </value>
+            <value>
+                <fullName>CN TQEH</fullName>
+                <default>false</default>
+                <label>CN TQEH</label>
+            </value>
+            <value>
+                <fullName>CN RAH</fullName>
+                <default>false</default>
+                <label>CN RAH</label>
+            </value>
+            <value>
+                <fullName>SO RGH</fullName>
+                <default>false</default>
+                <label>SO RGH</label>
+            </value>
+            <value>
+                <fullName>RM Riverland</fullName>
+                <default>false</default>
+                <label>RM Riverland</label>
+            </value>
+            <value>
+                <fullName>WC WCHN CAMHS - child/adolescent community</fullName>
+                <default>false</default>
+                <label>WC WCHN CAMHS - child/adolescent community</label>
+            </value>
+            <value>
+                <fullName>BH Sth Coast District</fullName>
+                <default>false</default>
+                <label>BH Sth Coast District</label>
+            </value>
+            <value>
+                <fullName>BH Tanunda</fullName>
+                <default>false</default>
+                <label>BH Tanunda</label>
+            </value>
+            <value>
+                <fullName>CN TQED</fullName>
+                <default>false</default>
+                <label>CN TQED</label>
+            </value>
+            <value>
+                <fullName>YN Wallaroo (Northen Yorke)</fullName>
+                <default>false</default>
+                <label>YN Wallaroo (Northen Yorke)</label>
+            </value>
+            <value>
+                <fullName>WC WCH - the hospital</fullName>
+                <default>false</default>
+                <label>WC WCH - the hospital</label>
+            </value>
+            <value>
+                <fullName>WC WCMHS - adult community</fullName>
+                <default>false</default>
+                <label>WC WCMHS - adult community</label>
+            </value>
+            <value>
+                <fullName>FU Whyalla</fullName>
+                <default>false</default>
+                <label>FU Whyalla</label>
+            </value>
+            <value>
+                <fullName>EF Yalata</fullName>
+                <default>false</default>
+                <label>EF Yalata</label>
+            </value>
+            <value>
+                <fullName>GP GP Clinic</fullName>
+                <default>false</default>
+                <label>GP GP Clinic</label>
+            </value>
+            <value>
+                <fullName>PR Adelaide Remand Centre</fullName>
+                <default>false</default>
+                <label>PR Adelaide Remand Centre</label>
+            </value>
+            <value>
+                <fullName>PR City Watch House</fullName>
+                <default>false</default>
+                <label>PR City Watch House</label>
+            </value>
+            <value>
+                <fullName>PR Adelaide Women&#39;s Prison</fullName>
+                <default>false</default>
+                <label>PR Adelaide Women&#39;s Prison</label>
+            </value>
+            <value>
+                <fullName>PR Cadell Training Centre</fullName>
+                <default>false</default>
+                <label>PR Cadell Training Centre</label>
+            </value>
+            <value>
+                <fullName>PR Mobilong Prison</fullName>
+                <default>false</default>
+                <label>PR Mobilong Prison</label>
+            </value>
+            <value>
+                <fullName>PR Port Augusta Prison</fullName>
+                <default>false</default>
+                <label>PR Port Augusta Prison</label>
+            </value>
+            <value>
+                <fullName>PR Port Lincoln Prison</fullName>
+                <default>false</default>
+                <label>PR Port Lincoln Prison</label>
+            </value>
+            <value>
+                <fullName>PR Yatala Labour Prison</fullName>
+                <default>false</default>
+                <label>PR Yatala Labour Prison</label>
+            </value>
+            <value>
+                <fullName>PR Holden Hill</fullName>
+                <default>false</default>
+                <label>PR Holden Hill</label>
+            </value>
+            <value>
+                <fullName>PR Mount Gambier Prison</fullName>
+                <default>false</default>
+                <label>PR Mount Gambier Prison</label>
+            </value>
+            <value>
+                <fullName>PR Pre Release Centre</fullName>
+                <default>false</default>
+                <label>PR Pre Release Centre</label>
+            </value>
+            <value>
+                <fullName>CN WCMHS</fullName>
+                <default>false</default>
+                <label>CN WCMHS</label>
+            </value>
+            <value>
+                <fullName>SO SICC</fullName>
+                <default>false</default>
+                <label>SO SICC</label>
+            </value>
+            <value>
+                <fullName>SO TPC</fullName>
+                <default>false</default>
+                <label>SO TPC</label>
+            </value>
+            <value>
+                <fullName>CN WICC</fullName>
+                <default>false</default>
+                <label>CN WICC</label>
+            </value>
+            <value>
+                <fullName>NO Wondakka</fullName>
+                <default>false</default>
+                <label>NO Wondakka</label>
+            </value>
+            <value>
+                <fullName>DA DASSA</fullName>
+                <default>false</default>
+                <label>DA DASSA</label>
+            </value>
+            <value>
+                <fullName>CN EOPMHS</fullName>
+                <default>false</default>
+                <label>CN EOPMHS</label>
+            </value>
+            <value>
+                <fullName>CN WOPMHS</fullName>
+                <default>false</default>
+                <label>CN WOPMHS</label>
+            </value>
+            <value>
+                <fullName>NO NOPMHS</fullName>
+                <default>false</default>
+                <label>NO NOPMHS</label>
+            </value>
+            <value>
+                <fullName>SO SOPMHS</fullName>
+                <default>false</default>
+                <label>SO SOPMHS</label>
+            </value>
+            <value>
+                <fullName>RA Fullarton Clinic</fullName>
+                <default>false</default>
+                <label>RA Fullarton Clinic</label>
+            </value>
+            <value>
+                <fullName>WC WCHN Yarrow Place</fullName>
+                <default>false</default>
+                <label>WC WCHN Yarrow Place</label>
+            </value>
+            <value>
+                <fullName>RM Barmera</fullName>
+                <default>false</default>
+                <label>RM Barmera</label>
+            </value>
+            <value>
+                <fullName>YN Booleroo</fullName>
+                <default>false</default>
+                <label>YN Booleroo</label>
+            </value>
+            <value>
+                <fullName>EF Cleve</fullName>
+                <default>false</default>
+                <label>EF Cleve</label>
+            </value>
+            <value>
+                <fullName>EF Coober Pedy</fullName>
+                <default>false</default>
+                <label>EF Coober Pedy</label>
+            </value>
+            <value>
+                <fullName>EF Cowell</fullName>
+                <default>false</default>
+                <label>EF Cowell</label>
+            </value>
+            <value>
+                <fullName>YN Crystal Brook</fullName>
+                <default>false</default>
+                <label>YN Crystal Brook</label>
+            </value>
+            <value>
+                <fullName>EF Cummins</fullName>
+                <default>false</default>
+                <label>EF Cummins</label>
+            </value>
+            <value>
+                <fullName>EF Elliston</fullName>
+                <default>false</default>
+                <label>EF Elliston</label>
+            </value>
+            <value>
+                <fullName>BH Eudunda</fullName>
+                <default>false</default>
+                <label>BH Eudunda</label>
+            </value>
+            <value>
+                <fullName>BH Gumeracha</fullName>
+                <default>false</default>
+                <label>BH Gumeracha</label>
+            </value>
+            <value>
+                <fullName>FU Hawker</fullName>
+                <default>false</default>
+                <label>FU Hawker</label>
+            </value>
+            <value>
+                <fullName>YN Jamestown</fullName>
+                <default>false</default>
+                <label>YN Jamestown</label>
+            </value>
+            <value>
+                <fullName>BH Kangaroo Island</fullName>
+                <default>false</default>
+                <label>BH Kangaroo Island</label>
+            </value>
+            <value>
+                <fullName>BH Kapunda</fullName>
+                <default>false</default>
+                <label>BH Kapunda</label>
+            </value>
+            <value>
+                <fullName>RM Karoonda</fullName>
+                <default>false</default>
+                <label>RM Karoonda</label>
+            </value>
+            <value>
+                <fullName>EF Kimba</fullName>
+                <default>false</default>
+                <label>EF Kimba</label>
+            </value>
+            <value>
+                <fullName>LC Kingston</fullName>
+                <default>false</default>
+                <label>LC Kingston</label>
+            </value>
+            <value>
+                <fullName>YN Laura</fullName>
+                <default>false</default>
+                <label>YN Laura</label>
+            </value>
+            <value>
+                <fullName>FU Leigh Creek</fullName>
+                <default>false</default>
+                <label>FU Leigh Creek</label>
+            </value>
+            <value>
+                <fullName>RM Lower Murray (Tailem Bend)</fullName>
+                <default>false</default>
+                <label>RM Lower Murray (Tailem Bend)</label>
+            </value>
+            <value>
+                <fullName>RM Loxton</fullName>
+                <default>false</default>
+                <label>RM Loxton</label>
+            </value>
+            <value>
+                <fullName>RM Mannum</fullName>
+                <default>false</default>
+                <label>RM Mannum</label>
+            </value>
+            <value>
+                <fullName>YN Melaleuca Court Nursing Home (Minlaton)</fullName>
+                <default>false</default>
+                <label>YN Melaleuca Court Nursing Home (Minlaton)</label>
+            </value>
+            <value>
+                <fullName>RM Meningie</fullName>
+                <default>false</default>
+                <label>RM Meningie</label>
+            </value>
+            <value>
+                <fullName>LC Millicent</fullName>
+                <default>false</default>
+                <label>LC Millicent</label>
+            </value>
+            <value>
+                <fullName>BH Mt Barker</fullName>
+                <default>false</default>
+                <label>BH Mt Barker</label>
+            </value>
+            <value>
+                <fullName>BH Mt Pleasant</fullName>
+                <default>false</default>
+                <label>BH Mt Pleasant</label>
+            </value>
+            <value>
+                <fullName>LC Naracoorte</fullName>
+                <default>false</default>
+                <label>LC Naracoorte</label>
+            </value>
+            <value>
+                <fullName>YN Northern Yorke</fullName>
+                <default>false</default>
+                <label>YN Northern Yorke</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

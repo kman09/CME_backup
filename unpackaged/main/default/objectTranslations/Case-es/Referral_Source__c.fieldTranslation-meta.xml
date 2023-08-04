@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Referral Source --></label>
+        <name>Referral_Source__c</name>
+        <picklistValues>
+            <masterLabel>ALRM Lawyer</masterLabel>
+            <translation><!-- ALRM Lawyer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aboriginal Health Service</masterLabel>
+            <translation><!-- Aboriginal Health Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAMHS</masterLabel>
+            <translation><!-- CAMHS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CentreLink</masterLabel>
+            <translation><!-- CentreLink --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Child Protection Agency</masterLabel>
+            <translation><!-- Child Protection Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Combined Regional Triage</masterLabel>
+            <translation><!-- Combined Regional Triage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Court (Magistrate)</masterLabel>
+            <translation><!-- Court (Magistrate) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Court Diversion Program / TIC</masterLabel>
+            <translation><!-- Court Diversion Program / TIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DASSA</masterLabel>
+            <translation><!-- DASSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DCP (was Families SA)</masterLabel>
+            <translation><!-- DCP (was Families SA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DVA</masterLabel>
+            <translation><!-- DVA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disability SA</masterLabel>
+            <translation><!-- Disability SA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domiciliary Care</masterLabel>
+            <translation><!-- Domiciliary Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Educational Institution</masterLabel>
+            <translation><!-- Educational Institution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emergency Department</masterLabel>
+            <translation><!-- Emergency Department --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Episode integration</masterLabel>
+            <translation><!-- Episode integration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FCADS</masterLabel>
+            <translation><!-- FCADS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FMC Paediatric Department</masterLabel>
+            <translation><!-- FMC Paediatric Department --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Family</masterLabel>
+            <translation><!-- Family --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Friend</masterLabel>
+            <translation><!-- Friend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GSB, MAP</masterLabel>
+            <translation><!-- GSB, MAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Govt Residential Aged Care Facility</masterLabel>
+            <translation><!-- Govt Residential Aged Care Facility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Headspace - Early Psychosis Program (formerly  hYEPP)</masterLabel>
+            <translation><!-- Headspace - Early Psychosis Program (formerly  hYEPP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Headspace - emerge</masterLabel>
+            <translation><!-- Headspace - emerge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Headspace - general</masterLabel>
+            <translation><!-- Headspace - general --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Homeless Services</masterLabel>
+            <translation><!-- Homeless Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospital - Private</masterLabel>
+            <translation><!-- Hospital - Private --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hostel / Boarding House</masterLabel>
+            <translation><!-- Hostel / Boarding House --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LMH Paediatric Department</masterLabel>
+            <translation><!-- LMH Paediatric Department --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LSC Lawyer</masterLabel>
+            <translation><!-- LSC Lawyer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal Service</masterLabel>
+            <translation><!-- Legal Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local Government Services</masterLabel>
+            <translation><!-- Local Government Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MH Community Residential / Rehabilitation Centre</masterLabel>
+            <translation><!-- MH Community Residential / Rehabilitation Centre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MH Inpatient Facility</masterLabel>
+            <translation><!-- MH Inpatient Facility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MH Intermediate Care Centre</masterLabel>
+            <translation><!-- MH Intermediate Care Centre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Govt Residential Aged Care Facility</masterLabel>
+            <translation><!-- Non-Govt Residential Aged Care Facility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Stated / Inadequately Described</masterLabel>
+            <translation><!-- Not Stated / Inadequately Described --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Community Health Service</masterLabel>
+            <translation><!-- Other Community Health Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Private Practitioner</masterLabel>
+            <translation><!-- Other Private Practitioner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other public hospital department</masterLabel>
+            <translation><!-- Other public hospital department --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Police incl. Police Custody</masterLabel>
+            <translation><!-- Police incl. Police Custody --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prison Health Service (SAPHS)</masterLabel>
+            <translation><!-- Prison Health Service (SAPHS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Lawyer</masterLabel>
+            <translation><!-- Private Lawyer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Paediatrician</masterLabel>
+            <translation><!-- Private Paediatrician --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Psychiatrist</masterLabel>
+            <translation><!-- Private Psychiatrist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prosecution</masterLabel>
+            <translation><!-- Prosecution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Psychiatry Liaison</masterLabel>
+            <translation><!-- Psychiatry Liaison --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Psychologist</masterLabel>
+            <translation><!-- Psychologist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R&amp;R Emergency Triage Liaison Service</masterLabel>
+            <translation><!-- R&amp;R Emergency Triage Liaison Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RDNS</masterLabel>
+            <translation><!-- RDNS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regional ACIS Teams</masterLabel>
+            <translation><!-- Regional ACIS Teams --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regional CHS</masterLabel>
+            <translation><!-- Regional CHS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regional CT/CCT/MACS Team</masterLabel>
+            <translation><!-- Regional CT/CCT/MACS Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Housing</masterLabel>
+            <translation><!-- SA Housing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self</masterLabel>
+            <translation><!-- Self --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheriff&#39;s Officer</masterLabel>
+            <translation><!-- Sheriff&apos;s Officer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Significant Other</masterLabel>
+            <translation><!-- Significant Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specialist Aged Assessment Team</masterLabel>
+            <translation><!-- Specialist Aged Assessment Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specialist Disability Assessment Team</masterLabel>
+            <translation><!-- Specialist Disability Assessment Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specialist/Consultant</masterLabel>
+            <translation><!-- Specialist/Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State Correctional Service</masterLabel>
+            <translation><!-- State Correctional Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Allied Health</masterLabel>
+            <translation><!-- WCH Allied Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Antenatal Clinic</masterLabel>
+            <translation><!-- WCH Antenatal Clinic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Antenatal Ward</masterLabel>
+            <translation><!-- WCH Antenatal Ward --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Burns</masterLabel>
+            <translation><!-- WCH Burns --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Cardiology</masterLabel>
+            <translation><!-- WCH Cardiology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Chemical Pathology</masterLabel>
+            <translation><!-- WCH Chemical Pathology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Child Development</masterLabel>
+            <translation><!-- WCH Child Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Child Protection Service</masterLabel>
+            <translation><!-- WCH Child Protection Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Chronic Pain</masterLabel>
+            <translation><!-- WCH Chronic Pain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Craniofacial</masterLabel>
+            <translation><!-- WCH Craniofacial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Dental</masterLabel>
+            <translation><!-- WCH Dental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Dermatology</masterLabel>
+            <translation><!-- WCH Dermatology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH ENT</masterLabel>
+            <translation><!-- WCH ENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Endocrine</masterLabel>
+            <translation><!-- WCH Endocrine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Gastro</masterLabel>
+            <translation><!-- WCH Gastro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH General Medicine</masterLabel>
+            <translation><!-- WCH General Medicine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Genetics</masterLabel>
+            <translation><!-- WCH Genetics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Haematology</masterLabel>
+            <translation><!-- WCH Haematology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Histopathology</masterLabel>
+            <translation><!-- WCH Histopathology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Immunology</masterLabel>
+            <translation><!-- WCH Immunology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Maternal Fetal Medicine</masterLabel>
+            <translation><!-- WCH Maternal Fetal Medicine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Metabolic</masterLabel>
+            <translation><!-- WCH Metabolic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Nerosurgery</masterLabel>
+            <translation><!-- WCH Nerosurgery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Neurology</masterLabel>
+            <translation><!-- WCH Neurology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Occupational Therapy</masterLabel>
+            <translation><!-- WCH Occupational Therapy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Oncology - Michael Rice Centre</masterLabel>
+            <translation><!-- WCH Oncology - Michael Rice Centre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Opthalmology</masterLabel>
+            <translation><!-- WCH Opthalmology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Orthopaedic Surgery</masterLabel>
+            <translation><!-- WCH Orthopaedic Surgery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Other</masterLabel>
+            <translation><!-- WCH Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Paediatric anasthesia</masterLabel>
+            <translation><!-- WCH Paediatric anasthesia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Paediatric emergency</masterLabel>
+            <translation><!-- WCH Paediatric emergency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Paediatric intensive care</masterLabel>
+            <translation><!-- WCH Paediatric intensive care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Paediatric surgery</masterLabel>
+            <translation><!-- WCH Paediatric surgery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Physio</masterLabel>
+            <translation><!-- WCH Physio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Plastic</masterLabel>
+            <translation><!-- WCH Plastic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Postnatal Ward</masterLabel>
+            <translation><!-- WCH Postnatal Ward --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Pulmonary medicine</masterLabel>
+            <translation><!-- WCH Pulmonary medicine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Rehab</masterLabel>
+            <translation><!-- WCH Rehab --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Renal</masterLabel>
+            <translation><!-- WCH Renal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Rheumatology</masterLabel>
+            <translation><!-- WCH Rheumatology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Social work</masterLabel>
+            <translation><!-- WCH Social work --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Speech</masterLabel>
+            <translation><!-- WCH Speech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Univ. Paed Med</masterLabel>
+            <translation><!-- WCH Univ. Paed Med --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Urology</masterLabel>
+            <translation><!-- WCH Urology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WCH Women&#39;s Assessment (WAS)</masterLabel>
+            <translation><!-- WCH Women&apos;s Assessment (WAS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Women&#39;s CHC</masterLabel>
+            <translation><!-- Women&apos;s CHC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Youth CHC</masterLabel>
+            <translation><!-- Youth CHC --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

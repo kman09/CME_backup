@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Participation Status --></label>
+        <name>Participation_Status__c</name>
+        <picklistValues>
+            <masterLabel>Client Participating</masterLabel>
+            <translation><!-- Client Participating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client not Participating</masterLabel>
+            <translation><!-- Client not Participating --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

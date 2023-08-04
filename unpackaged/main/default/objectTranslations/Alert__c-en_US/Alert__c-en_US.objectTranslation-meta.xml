@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Alert</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Alerts</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Alert Layout</layout>
+        <sections>
+            <label><!-- Close Alert Details --></label>
+            <section>Close Alert Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Review Details --></label>
+            <section>Review Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please provide the Alert Sub Type. --></errorMessage>
+        <name>Alert_Sub_Type_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Close Date should be greater than Start and Review Date --></errorMessage>
+        <name>Close_Date_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This alert can not be closed. --></errorMessage>
+        <name>Disability_Closure_Alert</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Review Date should be greater than Start Date and less then Close Date --></errorMessage>
+        <name>Review_Date_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Close Date, Close Reason and Close By can not be blank. --></errorMessage>
+        <name>Status_changed_to_close</name>
+    </validationRules>
+</CustomObjectTranslation>

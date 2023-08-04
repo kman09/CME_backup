@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Living_Arrangements__c</fullName>
+    <externalId>false</externalId>
+    <label>Living Arrangements</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+                <label>Not Applicable</label>
+            </value>
+            <value>
+                <fullName>Lives alone</fullName>
+                <default>false</default>
+                <label>Lives alone</label>
+            </value>
+            <value>
+                <fullName>Lives with family</fullName>
+                <default>false</default>
+                <label>Lives with family</label>
+            </value>
+            <value>
+                <fullName>Lives with others</fullName>
+                <default>false</default>
+                <label>Lives with others</label>
+            </value>
+            <value>
+                <fullName>Not stated /Inadequately described</fullName>
+                <default>false</default>
+                <label>Not stated /Inadequately described</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

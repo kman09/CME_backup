@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team_Referral_To_First_Must_Be_Marion</fullName>
+    <active>true</active>
+    <description>On creation of the record, the team must be FMC Marion Intake.</description>
+    <errorConditionFormula>RecordType.DeveloperName == &#39;Referral_Management_Plan&#39; &amp;&amp; ISNEW() &amp;&amp; Team_Referred_to__r.Name != &#39;434200 - FMC Marion Intake&#39;</errorConditionFormula>
+    <errorDisplayField>Team_Referred_to__c</errorDisplayField>
+    <errorMessage>The first team always must be FMC Marion Intake.</errorMessage>
+</ValidationRule>

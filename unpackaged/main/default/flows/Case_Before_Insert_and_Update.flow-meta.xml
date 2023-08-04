@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <assignments>
+        <name>Assign_Accepted_Rejected_Deferred_Date</name>
+        <label>Assign Accepted/Rejected/Deferred Date</label>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Referral_Action_Date__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>ReferralAcceptedRejectedDefferedDate</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Deferred_Date</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Last_Team_Referred_To</name>
+        <label>Last Team Referred To</label>
+        <locationX>50</locationX>
+        <locationY>791</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Last_Team_Referred_to__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>LastTeamReferredtoValue</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Team_Referred_From__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>UpdateTeamReferralFrom</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Update_Deferred_Date</name>
+        <label>Update Deferred Date</label>
+        <locationX>50</locationX>
+        <locationY>551</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Deferred_Date__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>CheckDeferredStatus</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Team_Referred_To_on_Decline_From_Last_Team</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Update_Team_Referred_To_on_Decline_From_Last_Team</name>
+        <label>Update Team Referred To on Decline From Last Team</label>
+        <locationX>50</locationX>
+        <locationY>671</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Team_Referred_to__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>AssignLastTeamReferredWhenStatusDeclined</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Last_Team_Referred_To</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Check_Referral_Case</name>
+        <label>Check Referral Case</label>
+        <locationX>182</locationX>
+        <locationY>311</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Record_Type_is_Referral_Management_Plan</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Referral_Management_Plan</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Accepted_Rejected_Deferred_Date</targetReference>
+            </connector>
+            <label>Record Type is Referral Management Plan</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>AssignLastTeamReferredWhenStatusDeclined</name>
+        <dataType>String</dataType>
+        <expression>IF( ISCHANGED( {!$Record.Status} ) &amp;&amp; ISPICKVAL( {!$Record.Status}, &#39;Declined&#39;) &amp;&amp; NOT(ISBLANK( {!$Record.Last_Team_Referred_to__c} )),
+{!$Record.Last_Team_Referred_to__c},
+{!$Record.Team_Referred_to__c}
+)</expression>
+    </formulas>
+    <formulas>
+        <name>CheckDeferredStatus</name>
+        <dataType>Date</dataType>
+        <expression>IF(ISPICKVAL({!$Record.Status},&#39;Deferred&#39;),{!$Flow.CurrentDate},null)</expression>
+    </formulas>
+    <formulas>
+        <name>LastTeamReferredtoValue</name>
+        <dataType>String</dataType>
+        <expression>IF(ISNEW(),{!$Record.Team_Referred_to__c},
+IF(  ISCHANGED({!$Record.Team_Referred_to__c}) , {!$Record__Prior.Team_Referred_to__c},  {!$Record.Last_Team_Referred_to__c} ))</expression>
+    </formulas>
+    <formulas>
+        <name>ReferralAcceptedRejectedDefferedDate</name>
+        <dataType>Date</dataType>
+        <expression>IF( ISCHANGED( {!$Record.Status} ) &amp;&amp; 
+(  ISPICKVAL( {!$Record.Status}, &#39;Accepted&#39;) ||  ISPICKVAL( {!$Record.Status}, &#39;Declined&#39;)  ),
+{!$Flow.CurrentDate},
+{!$Record.Referral_Action_Date__c}
+)</expression>
+    </formulas>
+    <formulas>
+        <name>UpdateTeamReferralFrom</name>
+        <dataType>String</dataType>
+        <expression>IF( ISCHANGED({!$Record.Team_Referred_to__c}),{!$Record__Prior.Team_Referred_to__c},{!$Record.Team_Referred_From__c})</expression>
+    </formulas>
+    <interviewLabel>Case Before Insert and Update {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Case Before Insert and Update</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Check_Referral_Case</targetReference>
+        </connector>
+        <object>Case</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

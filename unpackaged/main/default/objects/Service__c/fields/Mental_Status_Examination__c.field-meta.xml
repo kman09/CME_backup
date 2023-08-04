@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mental_Status_Examination__c</fullName>
+    <defaultValue>&quot;Appearance&quot; &amp;  BR() &amp;
+&quot;*Behaviour: &quot; &amp;  BR() &amp;
+&quot;*Mood: &quot; &amp;  BR() &amp;
+&quot;*Speech: &quot; &amp;  BR() &amp;
+&quot;*Affect: &quot; &amp;  BR() &amp;
+&quot;*Thought (form and content): &quot; &amp;  BR() &amp;
+&quot;*Perception: &quot; &amp;  BR() &amp;
+&quot;*Cognition function: &quot; &amp;  BR() &amp;
+&quot;*Insight: &quot; &amp;  BR() &amp;
+&quot;*Judgement: &quot; &amp;  BR() &amp;
+&quot;*Rapport: &quot; &amp;  BR() &amp; BR() &amp;
+
+&quot;Neurovegetative Symptoms &quot; &amp;  BR() &amp;
+&quot;*Sleep: &quot; &amp;  BR() &amp;
+&quot;*Concentration: &quot; &amp;  BR() &amp;
+&quot;*Energy: &quot; &amp;  BR() &amp;
+&quot;*Appetite: &quot; &amp;  BR() &amp;
+&quot;*Weight: &quot;</defaultValue>
+    <externalId>false</externalId>
+    <label>Mental Status Examination</label>
+    <length>5000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Episode --></label>
+        <lookupFilter>
+            <errorMessage><!-- Episode does not belong to referred patient. --></errorMessage>
+        </lookupFilter>
+        <name>Episode__c</name>
+        <relationshipLabel><!-- Referrals --></relationshipLabel>
+    </CustomFieldTranslation>

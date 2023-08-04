@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Absconding (Category Level) --></label>
+        <name>Absconding_Category_Level__c</name>
+        <picklistValues>
+            <masterLabel>Acute - Crisis Situation, Sig. Stressors and Symptoms</masterLabel>
+            <translation><!-- Acute - Crisis Situation, Sig. Stressors and Symptoms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Acute Exacerbation - Chronic Risk With a Crisis</masterLabel>
+            <translation><!-- Acute Exacerbation - Chronic Risk With a Crisis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chronic - No Crisis, No Significant Stressors</masterLabel>
+            <translation><!-- Chronic - No Crisis, No Significant Stressors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Imminent - Extreme Crisis, Relevant for ED/Acute</masterLabel>
+            <translation><!-- Imminent - Extreme Crisis, Relevant for ED/Acute --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

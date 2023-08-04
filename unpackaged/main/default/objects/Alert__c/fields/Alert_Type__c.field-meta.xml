@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Alert_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Alert Type</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0100 Cultural/ Family Need</fullName>
+                <default>false</default>
+                <label>0100 Cultural/ Family Need</label>
+            </value>
+            <value>
+                <fullName>0200 Disability</fullName>
+                <default>false</default>
+                <label>0200 Disability</label>
+            </value>
+            <value>
+                <fullName>0300 Environment/OH&amp;S Hazard</fullName>
+                <default>false</default>
+                <label>0300 Environment/OH&amp;S Hazard</label>
+            </value>
+            <value>
+                <fullName>0400 Medical Alert</fullName>
+                <default>false</default>
+                <label>0400 Medical Alert</label>
+            </value>
+            <value>
+                <fullName>0500 Mobility Alert</fullName>
+                <default>false</default>
+                <label>0500 Mobility Alert</label>
+            </value>
+            <value>
+                <fullName>0600 Restrict Information</fullName>
+                <default>false</default>
+                <label>0600 Restrict Information</label>
+            </value>
+            <value>
+                <fullName>0700 Risk</fullName>
+                <default>false</default>
+                <label>0700 Risk</label>
+            </value>
+            <value>
+                <fullName>0800 Client Name Alert</fullName>
+                <default>false</default>
+                <label>0800 Client Name Alert</label>
+            </value>
+            <value>
+                <fullName>9800 Other</fullName>
+                <default>false</default>
+                <label>9800 Other</label>
+            </value>
+            <value>
+                <fullName>9900 Alert Migration</fullName>
+                <default>false</default>
+                <label>9900 Alert Migration</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

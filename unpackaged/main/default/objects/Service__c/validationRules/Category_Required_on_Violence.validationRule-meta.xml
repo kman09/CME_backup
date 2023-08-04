@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category_Required_on_Violence</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(RecordType.DeveloperName == &#39;Comprehensive_Assessment&#39;,
+				TEXT(Violence_Aggregation_Assessed_Level__c) != &#39;&#39; ,
+				TEXT(Violence_Aggregation_Assessed_Level__c) != &#39;No Risk&#39;,
+			TEXT(Violence_Aggregation_Category_Level__c) == &#39;&#39;)</errorConditionFormula>
+    <errorDisplayField>Violence_Aggregation_Category_Level__c</errorDisplayField>
+    <errorMessage>Voilence / Aggregation (Category Level) is mandatory.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referral_Accepted_Yes</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(RecordType.DeveloperName == &#39;Referral_Management_Plan&#39; ,
+				TEXT(Status) == &#39;Accepted&#39; , 
+				OR(ISBLANK(Accepted_Not_Accepted_Comments__c),
+  						ISBLANK(Accepted_Team__c),
+						ISBLANK(Episode__c)
+						))</errorConditionFormula>
+    <errorMessage>Please provide Accepted/ Not Accepted Comments, Accepted Team, and Episode.</errorMessage>
+</ValidationRule>

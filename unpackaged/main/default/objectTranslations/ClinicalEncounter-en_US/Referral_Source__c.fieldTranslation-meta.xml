@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Referral Source --></label>
+        <name>Referral_Source__c</name>
+        <picklistValues>
+            <masterLabel>01 Self</masterLabel>
+            <translation><!-- 01 Self --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>02 Family, Significant Other, Friend</masterLabel>
+            <translation><!-- 02 Family, Significant Other, Friend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03 General Practitioner</masterLabel>
+            <translation><!-- 03 General Practitioner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04 Specialised Aged/Disability Assessment Team</masterLabel>
+            <translation><!-- 04 Specialised Aged/Disability Assessment Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>06 Community Nursing Service</masterLabel>
+            <translation><!-- 06 Community Nursing Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>07 Hospital - Public</masterLabel>
+            <translation><!-- 07 Hospital - Public --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>08 Psychiatric/Mental Health Service Facility</masterLabel>
+            <translation><!-- 08 Psychiatric/Mental Health Service Facility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11 Govt Residential Aged Care Facility</masterLabel>
+            <translation><!-- 11 Govt Residential Aged Care Facility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 Aboriginal Health Service</masterLabel>
+            <translation><!-- 12 Aboriginal Health Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14 Other Community Based Govt Medical/Health Service</masterLabel>
+            <translation><!-- 14 Other Community Based Govt Medical/Health Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15 Other Govt Medical Health Service</masterLabel>
+            <translation><!-- 15 Other Govt Medical Health Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16 Other Govt Community Based Service</masterLabel>
+            <translation><!-- 16 Other Govt Community Based Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17 Hospital -Private</masterLabel>
+            <translation><!-- 17 Hospital -Private --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18 Non-Govt Residential Aged Care Facility</masterLabel>
+            <translation><!-- 18 Non-Govt Residential Aged Care Facility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19 Other non-Govt Medical/Health Service</masterLabel>
+            <translation><!-- 19 Other non-Govt Medical/Health Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20 Other non-Govt Community Based Service</masterLabel>
+            <translation><!-- 20 Other non-Govt Community Based Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21 Justice System</masterLabel>
+            <translation><!-- 21 Justice System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22 Other</masterLabel>
+            <translation><!-- 22 Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>99 Not Stated/Inadequately Described</masterLabel>
+            <translation><!-- 99 Not Stated/Inadequately Described --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

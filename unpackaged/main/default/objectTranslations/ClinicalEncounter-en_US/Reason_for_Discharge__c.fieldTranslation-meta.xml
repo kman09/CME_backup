@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Reason for Discharge --></label>
+        <name>Reason_for_Discharge__c</name>
+        <picklistValues>
+            <masterLabel>Client Died</masterLabel>
+            <translation><!-- Client Died --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Moved out of Area</masterLabel>
+            <translation><!-- Client Moved out of Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Terminated Service</masterLabel>
+            <translation><!-- Client Terminated Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discharge/Transfer to another Service</masterLabel>
+            <translation><!-- Discharge/Transfer to another Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Episode Integration</masterLabel>
+            <translation><!-- Episode Integration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Required - In Residential Care</masterLabel>
+            <translation><!-- Not Required - In Residential Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Required - Problem Resolved</masterLabel>
+            <translation><!-- Not Required - Problem Resolved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referred to Other Residential Care</masterLabel>
+            <translation><!-- Referred to Other Residential Care --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referral_Type_External</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(RecordType.DeveloperName == &#39;Referral_Management_Plan&#39; ,
+  TEXT(Referral_Type__c) == &#39;External&#39;,
+    OR(ISBLANK(Date_on_Referral__c),
+						ISBLANK(Referrer_Details__c),
+						TEXT(Referral_Source__c) == &#39;&#39;))</errorConditionFormula>
+    <errorMessage>Please provide Date on Referral, Referral Details and Referral Source.</errorMessage>
+</ValidationRule>

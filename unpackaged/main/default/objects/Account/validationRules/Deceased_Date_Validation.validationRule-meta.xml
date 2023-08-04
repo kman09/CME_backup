@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deceased_Date_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( IsPersonAccount== true, 
+		OR(
+						AND(TEXT(Status__c )==&#39;Deceased&#39; ,
+  			ISBLANK(HealthCloudGA__DeceasedDate__pc)),
+						
+								AND(TEXT(Status__c) !=&#39;Deceased&#39; ,
+  			NOT(ISBLANK(HealthCloudGA__DeceasedDate__pc)))
+		)
+	)</errorConditionFormula>
+    <errorMessage>Deceased Date is required when Status is Deceased.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,1301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Language --></label>
+        <name>Language__c</name>
+        <picklistValues>
+            <masterLabel>Aboriginal English, so described</masterLabel>
+            <translation><!-- Aboriginal English, so described --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aboriginal Languages</masterLabel>
+            <translation><!-- Aboriginal Languages --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adnymathanha</masterLabel>
+            <translation><!-- Adnymathanha --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>African Languages nec</masterLabel>
+            <translation><!-- African Languages nec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Afrikaans</masterLabel>
+            <translation><!-- Afrikaans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alawa</masterLabel>
+            <translation><!-- Alawa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Albanian</masterLabel>
+            <translation><!-- Albanian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alngith</masterLabel>
+            <translation><!-- Alngith --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alyawarr</masterLabel>
+            <translation><!-- Alyawarr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amharic</masterLabel>
+            <translation><!-- Amharic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amurdak</masterLabel>
+            <translation><!-- Amurdak --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anindilyakwa</masterLabel>
+            <translation><!-- Anindilyakwa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anmatyerr, nec</masterLabel>
+            <translation><!-- Anmatyerr, nec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antekerrepenh</masterLabel>
+            <translation><!-- Antekerrepenh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antikarinya</masterLabel>
+            <translation><!-- Antikarinya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arabana</masterLabel>
+            <translation><!-- Arabana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arabic (including Lebanese)</masterLabel>
+            <translation><!-- Arabic (including Lebanese) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arandic, nec</masterLabel>
+            <translation><!-- Arandic, nec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Armenian</masterLabel>
+            <translation><!-- Armenian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arnhem Land and Daly River Region Languages, nec</masterLabel>
+            <translation><!-- Arnhem Land and Daly River Region Languages, nec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arrernte, nec</masterLabel>
+            <translation><!-- Arrernte, nec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assyrian (including Aramaic)</masterLabel>
+            <translation><!-- Assyrian (including Aramaic) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baanbay</masterLabel>
+            <translation><!-- Baanbay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Badimaya</masterLabel>
+            <translation><!-- Badimaya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Balochi</masterLabel>
+            <translation><!-- Balochi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bandjalang</masterLabel>
+            <translation><!-- Bandjalang --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banyjima</masterLabel>
+            <translation><!-- Banyjima --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barababaraba</masterLabel>
+            <translation><!-- Barababaraba --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bardi</masterLabel>
+            <translation><!-- Bardi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Basque</masterLabel>
+            <translation><!-- Basque --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batjala</masterLabel>
+            <translation><!-- Batjala --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belorussian</masterLabel>
+            <translation><!-- Belorussian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bengali</masterLabel>
+            <translation><!-- Bengali --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bidjara</masterLabel>
+            <translation><!-- Bidjara --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bilinarra</masterLabel>
+            <translation><!-- Bilinarra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bisaya</masterLabel>
+            <translation><!-- Bisaya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bosnian</masterLabel>
+            <translation><!-- Bosnian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulgarian</masterLabel>
+            <translation><!-- Bulgarian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bunuba</masterLabel>
+            <translation><!-- Bunuba --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burarra</masterLabel>
+            <translation><!-- Burarra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burarran, nec</masterLabel>
+            <translation><!-- Burarran, nec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burmese</masterLabel>
+            <translation><!-- Burmese --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cantonese</masterLabel>
+            <translation><!-- Cantonese --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cape York Peninsula Languages, nec</masterLabel>
+            <translation><!-- Cape York Peninsula Languages, nec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Catalan</masterLabel>
+            <translation><!-- Catalan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cebuano</masterLabel>
+            <translation><!-- Cebuano --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Anmatyerr</masterLabel>
+            <translation><!-- Central Anmatyerr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Croatian</masterLabel>
+            <translation><!-- Croatian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Czech</masterLabel>
+            <translation><!-- Czech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daatiwuy</masterLabel>
+            <translation><!-- Daatiwuy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dadi Dadi</masterLabel>
+            <translation><!-- Dadi Dadi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dalabon</masterLabel>
+            <translation><!-- Dalabon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Danish</masterLabel>
+            <translation><!-- Danish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dari</masterLabel>
+            <translation><!-- Dari --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dhalwangu</masterLabel>
+            <translation><!-- Dhalwangu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dhanggatti</masterLabel>
+            <translation><!-- Dhanggatti --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dhangu, nec</masterLabel>
+            <translation><!-- Dhangu, nec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dharawal</masterLabel>
+            <translation><!-- Dharawal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dhay&#39;yi, nec</masterLabel>
+            <translation><!-- Dhay&apos;yi, nec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dhuwal, nec</masterLabel>
+            <translation><!-- Dhuwal, nec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dhuwala, nec</masterLabel>
+            <translation><!-- Dhuwala, nec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dhuwaya</masterLabel>
+            <translation><!-- Dhuwaya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diyari</masterLabel>
+            <translation><!-- Diyari --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Djabugay</masterLabel>
+            <translation><!-- Djabugay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Djabwurrung</masterLabel>
+            <translation><!-- Djabwurrung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Djambarrpuyngu</masterLabel>
+            <translation><!-- Djambarrpuyngu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Djangu</masterLabel>
+            <translation><!-- Djangu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Djapu</masterLabel>
+            <translation><!-- Djapu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Djarrwark</masterLabel>
+            <translation><!-- Djarrwark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Djinang, nec</masterLabel>
+            <translation><!-- Djinang, nec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Djinba</masterLabel>
+            <translation><!-- Djinba --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Djinba, nec</masterLabel>
+            <translation><!-- Djinba, nec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dyirbal</masterLabel>
+            <translation><!-- Dyirbal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eastern Anmatyerr</masterLabel>
+            <translation><!-- Eastern Anmatyerr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eastern Arrernte</masterLabel>
+            <translation><!-- Eastern Arrernte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation><!-- English --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estonian</masterLabel>
+            <translation><!-- Estonian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fijian</masterLabel>
+            <translation><!-- Fijian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finnish</masterLabel>
+            <translation><!-- Finnish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French</masterLabel>
+            <translation><!-- French --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gaelic (Scotland)</masterLabel>
+            <translation><!-- Gaelic (Scotland) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Galpu</masterLabel>
+            <translation><!-- Galpu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gambera</masterLabel>
+            <translation><!-- Gambera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gamilaraay</masterLabel>
+            <translation><!-- Gamilaraay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ganalbingu</masterLabel>
+            <translation><!-- Ganalbingu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garrwa</masterLabel>
+            <translation><!-- Garrwa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garuwali</masterLabel>
+            <translation><!-- Garuwali --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>German</masterLabel>
+            <translation><!-- German --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gilbertese</masterLabel>
+            <translation><!-- Gilbertese --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Girramay</masterLabel>
+            <translation><!-- Girramay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Githabul</masterLabel>
+            <translation><!-- Githabul --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golumala</masterLabel>
+            <translation><!-- Golumala --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gooniyandi</masterLabel>
+            <translation><!-- Gooniyandi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greek</masterLabel>
+            <translation><!-- Greek --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gudanji</masterLabel>
+            <translation><!-- Gudanji --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gudjal</masterLabel>
+            <translation><!-- Gudjal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gujarati</masterLabel>
+            <translation><!-- Gujarati --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gumatj</masterLabel>
+            <translation><!-- Gumatj --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gumbaynggir</masterLabel>
+            <translation><!-- Gumbaynggir --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gun-nartpa</masterLabel>
+            <translation><!-- Gun-nartpa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gundjeihmi</masterLabel>
+            <translation><!-- Gundjeihmi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gupapuyngu</masterLabel>
+            <translation><!-- Gupapuyngu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gurindji</masterLabel>
+            <translation><!-- Gurindji --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gurindji Kriol</masterLabel>
+            <translation><!-- Gurindji Kriol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gurr-goni</masterLabel>
+            <translation><!-- Gurr-goni --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guugu Yimidhirr</masterLabel>
+            <translation><!-- Guugu Yimidhirr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guyamirrilili</masterLabel>
+            <translation><!-- Guyamirrilili --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hakka</masterLabel>
+            <translation><!-- Hakka --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hazaraghi</masterLabel>
+            <translation><!-- Hazaraghi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hebrew</masterLabel>
+            <translation><!-- Hebrew --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hindi</masterLabel>
+            <translation><!-- Hindi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hmong</masterLabel>
+            <translation><!-- Hmong --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hokkien</masterLabel>
+            <translation><!-- Hokkien --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hungarian</masterLabel>
+            <translation><!-- Hungarian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ilokano</masterLabel>
+            <translation><!-- Ilokano --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indonesian</masterLabel>
+            <translation><!-- Indonesian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iranic, nec</masterLabel>
+            <translation><!-- Iranic, nec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Irish</masterLabel>
+            <translation><!-- Irish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italian</masterLabel>
+            <translation><!-- Italian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iwaidja</masterLabel>
+            <translation><!-- Iwaidja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jaminjung</masterLabel>
+            <translation><!-- Jaminjung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japanese</masterLabel>
+            <translation><!-- Japanese --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jaru</masterLabel>
+            <translation><!-- Jaru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jawi</masterLabel>
+            <translation><!-- Jawi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jawoyn</masterLabel>
+            <translation><!-- Jawoyn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jingulu</masterLabel>
+            <translation><!-- Jingulu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kalaw Kawaw Ya/Kalaw Lagaw Ya</masterLabel>
+            <translation><!-- Kalaw Kawaw Ya/Kalaw Lagaw Ya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kanai</masterLabel>
+            <translation><!-- Kanai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kannada</masterLabel>
+            <translation><!-- Kannada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Karajarri</masterLabel>
+            <translation><!-- Karajarri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kariyarra</masterLabel>
+            <translation><!-- Kariyarra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kartujarra</masterLabel>
+            <translation><!-- Kartujarra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kaurna</masterLabel>
+            <translation><!-- Kaurna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kayardild</masterLabel>
+            <translation><!-- Kayardild --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kaytetye</masterLabel>
+            <translation><!-- Kaytetye --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keerray-Woorroong</masterLabel>
+            <translation><!-- Keerray-Woorroong --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Khmer</masterLabel>
+            <translation><!-- Khmer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kija</masterLabel>
+            <translation><!-- Kija --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kimberley Area Languages, nec</masterLabel>
+            <translation><!-- Kimberley Area Languages, nec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kirundi incl, Rundi</masterLabel>
+            <translation><!-- Kirundi incl, Rundi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Koko-Bera</masterLabel>
+            <translation><!-- Koko-Bera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Konkani</masterLabel>
+            <translation><!-- Konkani --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korean</masterLabel>
+            <translation><!-- Korean --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kriol</masterLabel>
+            <translation><!-- Kriol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kugu Muminh</masterLabel>
+            <translation><!-- Kugu Muminh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kukatha</masterLabel>
+            <translation><!-- Kukatha --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kukatja</masterLabel>
+            <translation><!-- Kukatja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kuku Yalanji</masterLabel>
+            <translation><!-- Kuku Yalanji --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kunbarlang</masterLabel>
+            <translation><!-- Kunbarlang --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kune</masterLabel>
+            <translation><!-- Kune --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kuninjku</masterLabel>
+            <translation><!-- Kuninjku --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kunwinjku</masterLabel>
+            <translation><!-- Kunwinjku --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kunwinjkuan, nec</masterLabel>
+            <translation><!-- Kunwinjkuan, nec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kurdish</masterLabel>
+            <translation><!-- Kurdish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kuuk Thayorre</masterLabel>
+            <translation><!-- Kuuk Thayorre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kuuku-Ya&#39;u</masterLabel>
+            <translation><!-- Kuuku-Ya&apos;u --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kuwema</masterLabel>
+            <translation><!-- Kuwema --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ladji Ladji</masterLabel>
+            <translation><!-- Ladji Ladji --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lamalama</masterLabel>
+            <translation><!-- Lamalama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lao</masterLabel>
+            <translation><!-- Lao --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lardil</masterLabel>
+            <translation><!-- Lardil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Larrakiya</masterLabel>
+            <translation><!-- Larrakiya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latvian</masterLabel>
+            <translation><!-- Latvian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Light Warlpiri</masterLabel>
+            <translation><!-- Light Warlpiri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lithuanian</masterLabel>
+            <translation><!-- Lithuanian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liyagalawumirr</masterLabel>
+            <translation><!-- Liyagalawumirr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liyagawumirr</masterLabel>
+            <translation><!-- Liyagawumirr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luritja</masterLabel>
+            <translation><!-- Luritja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Macedonian</masterLabel>
+            <translation><!-- Macedonian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Madarrpa</masterLabel>
+            <translation><!-- Madarrpa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malak Malak</masterLabel>
+            <translation><!-- Malak Malak --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malay</masterLabel>
+            <translation><!-- Malay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malayalam</masterLabel>
+            <translation><!-- Malayalam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malngin</masterLabel>
+            <translation><!-- Malngin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maltese</masterLabel>
+            <translation><!-- Maltese --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mandarin</masterLabel>
+            <translation><!-- Mandarin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mangala</masterLabel>
+            <translation><!-- Mangala --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mangarrayi</masterLabel>
+            <translation><!-- Mangarrayi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manggalili</masterLabel>
+            <translation><!-- Manggalili --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manyjalpingu</masterLabel>
+            <translation><!-- Manyjalpingu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manyjilyjarra</masterLabel>
+            <translation><!-- Manyjilyjarra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maori (Cook Island)</masterLabel>
+            <translation><!-- Maori (Cook Island) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maori (New Zealand)</masterLabel>
+            <translation><!-- Maori (New Zealand) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marathi</masterLabel>
+            <translation><!-- Marathi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maringarr</masterLabel>
+            <translation><!-- Maringarr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marra</masterLabel>
+            <translation><!-- Marra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marramaninyshi</masterLabel>
+            <translation><!-- Marramaninyshi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marrangu</masterLabel>
+            <translation><!-- Marrangu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marridan (Maridan)</masterLabel>
+            <translation><!-- Marridan (Maridan) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marrithiyel</masterLabel>
+            <translation><!-- Marrithiyel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Martu Wangka</masterLabel>
+            <translation><!-- Martu Wangka --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matngala</masterLabel>
+            <translation><!-- Matngala --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maung</masterLabel>
+            <translation><!-- Maung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mauritian Creole</masterLabel>
+            <translation><!-- Mauritian Creole --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mayali</masterLabel>
+            <translation><!-- Mayali --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meriam Mir</masterLabel>
+            <translation><!-- Meriam Mir --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miriwoong</masterLabel>
+            <translation><!-- Miriwoong --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mirning</masterLabel>
+            <translation><!-- Mirning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Morrobalama</masterLabel>
+            <translation><!-- Morrobalama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mudburra</masterLabel>
+            <translation><!-- Mudburra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Murrinh Patha</masterLabel>
+            <translation><!-- Murrinh Patha --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Muruwari</masterLabel>
+            <translation><!-- Muruwari --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Na-kara</masterLabel>
+            <translation><!-- Na-kara --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Narungga</masterLabel>
+            <translation><!-- Narungga --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nauruan</masterLabel>
+            <translation><!-- Nauruan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ndjebbana (Gunavidji)</masterLabel>
+            <translation><!-- Ndjebbana (Gunavidji) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nepali</masterLabel>
+            <translation><!-- Nepali --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlandic</masterLabel>
+            <translation><!-- Netherlandic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ngaanyatjarra</masterLabel>
+            <translation><!-- Ngaanyatjarra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ngalakgan</masterLabel>
+            <translation><!-- Ngalakgan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ngaliwurru</masterLabel>
+            <translation><!-- Ngaliwurru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ngan&#39;gikurunggurr</masterLabel>
+            <translation><!-- Ngan&apos;gikurunggurr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ngandi</masterLabel>
+            <translation><!-- Ngandi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ngardi</masterLabel>
+            <translation><!-- Ngardi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ngarinyin</masterLabel>
+            <translation><!-- Ngarinyin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ngarinyman</masterLabel>
+            <translation><!-- Ngarinyman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ngarluma</masterLabel>
+            <translation><!-- Ngarluma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ngarrindjeri</masterLabel>
+            <translation><!-- Ngarrindjeri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ngatjumaya</masterLabel>
+            <translation><!-- Ngatjumaya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nhangu</masterLabel>
+            <translation><!-- Nhangu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nhangu, nec</masterLabel>
+            <translation><!-- Nhangu, nec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non Verbal (incl. sign lang. e.g. Auslan, Makaton)</masterLabel>
+            <translation><!-- Non Verbal (incl. sign lang. e.g. Auslan, Makaton) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northern Desert Fringe Area Languages, nec</masterLabel>
+            <translation><!-- Northern Desert Fringe Area Languages, nec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norwegian</masterLabel>
+            <translation><!-- Norwegian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not stated/ Inadequate descr.</masterLabel>
+            <translation><!-- Not stated/ Inadequate descr. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nungali</masterLabel>
+            <translation><!-- Nungali --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nunggubuyu</masterLabel>
+            <translation><!-- Nunggubuyu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nyamal</masterLabel>
+            <translation><!-- Nyamal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nyangumarta</masterLabel>
+            <translation><!-- Nyangumarta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nyikina</masterLabel>
+            <translation><!-- Nyikina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nyungar</masterLabel>
+            <translation><!-- Nyungar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Australian Indigenous Languages, nec</masterLabel>
+            <translation><!-- Other Australian Indigenous Languages, nec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Languages, nec</masterLabel>
+            <translation><!-- Other Languages, nec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Yolngu Matha, nec</masterLabel>
+            <translation><!-- Other Yolngu Matha, nec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paakantyi</masterLabel>
+            <translation><!-- Paakantyi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Palyku/Nyiyaparli</masterLabel>
+            <translation><!-- Palyku/Nyiyaparli --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Papuan Languages</masterLabel>
+            <translation><!-- Papuan Languages --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pashto</masterLabel>
+            <translation><!-- Pashto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Persian</masterLabel>
+            <translation><!-- Persian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Persian (excluding Dari)</masterLabel>
+            <translation><!-- Persian (excluding Dari) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pintupi</masterLabel>
+            <translation><!-- Pintupi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pitjantjatjara</masterLabel>
+            <translation><!-- Pitjantjatjara --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Polish</masterLabel>
+            <translation><!-- Polish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portuguese</masterLabel>
+            <translation><!-- Portuguese --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Punjabi</masterLabel>
+            <translation><!-- Punjabi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rembarrnga</masterLabel>
+            <translation><!-- Rembarrnga --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rirratjingu</masterLabel>
+            <translation><!-- Rirratjingu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ritharrngu</masterLabel>
+            <translation><!-- Ritharrngu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Romanian</masterLabel>
+            <translation><!-- Romanian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russian</masterLabel>
+            <translation><!-- Russian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Samoan</masterLabel>
+            <translation><!-- Samoan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Serbian</masterLabel>
+            <translation><!-- Serbian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sindhi</masterLabel>
+            <translation><!-- Sindhi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sinhalese</masterLabel>
+            <translation><!-- Sinhalese --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovak</masterLabel>
+            <translation><!-- Slovak --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovene</masterLabel>
+            <translation><!-- Slovene --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Somali</masterLabel>
+            <translation><!-- Somali --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spanish</masterLabel>
+            <translation><!-- Spanish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swahili</masterLabel>
+            <translation><!-- Swahili --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swedish</masterLabel>
+            <translation><!-- Swedish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tagalog (Filipino)</masterLabel>
+            <translation><!-- Tagalog (Filipino) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tamil</masterLabel>
+            <translation><!-- Tamil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telugu</masterLabel>
+            <translation><!-- Telugu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teochew</masterLabel>
+            <translation><!-- Teochew --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tetum</masterLabel>
+            <translation><!-- Tetum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thai</masterLabel>
+            <translation><!-- Thai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thaynakwith</masterLabel>
+            <translation><!-- Thaynakwith --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tigrinya</masterLabel>
+            <translation><!-- Tigrinya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Timorese</masterLabel>
+            <translation><!-- Timorese --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiwi</masterLabel>
+            <translation><!-- Tiwi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tjungundji</masterLabel>
+            <translation><!-- Tjungundji --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tjupany</masterLabel>
+            <translation><!-- Tjupany --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tongan</masterLabel>
+            <translation><!-- Tongan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Torres Strait Islander Languages</masterLabel>
+            <translation><!-- Torres Strait Islander Languages --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkish</masterLabel>
+            <translation><!-- Turkish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ukrainian</masterLabel>
+            <translation><!-- Ukrainian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Urdu</masterLabel>
+            <translation><!-- Urdu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vietnamese</masterLabel>
+            <translation><!-- Vietnamese --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waanyi</masterLabel>
+            <translation><!-- Waanyi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wagilak</masterLabel>
+            <translation><!-- Wagilak --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wagiman</masterLabel>
+            <translation><!-- Wagiman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wajarri</masterLabel>
+            <translation><!-- Wajarri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Walmajarri</masterLabel>
+            <translation><!-- Walmajarri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waluwarra</masterLabel>
+            <translation><!-- Waluwarra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wambaya</masterLabel>
+            <translation><!-- Wambaya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wangkajunga</masterLabel>
+            <translation><!-- Wangkajunga --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wangkangurru</masterLabel>
+            <translation><!-- Wangkangurru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wangkatha</masterLabel>
+            <translation><!-- Wangkatha --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wangurri</masterLabel>
+            <translation><!-- Wangurri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wanyjirra</masterLabel>
+            <translation><!-- Wanyjirra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wardaman</masterLabel>
+            <translation><!-- Wardaman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wargamay</masterLabel>
+            <translation><!-- Wargamay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warlmanpa</masterLabel>
+            <translation><!-- Warlmanpa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warlpiri</masterLabel>
+            <translation><!-- Warlpiri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warnman</masterLabel>
+            <translation><!-- Warnman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warramiri</masterLabel>
+            <translation><!-- Warramiri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warumungu</masterLabel>
+            <translation><!-- Warumungu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Welsh</masterLabel>
+            <translation><!-- Welsh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wergaia</masterLabel>
+            <translation><!-- Wergaia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Western Arrarnta</masterLabel>
+            <translation><!-- Western Arrarnta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Western Desert Languages, nec</masterLabel>
+            <translation><!-- Western Desert Languages, nec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wik Mungkan</masterLabel>
+            <translation><!-- Wik Mungkan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wik Ngathan</masterLabel>
+            <translation><!-- Wik Ngathan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wiradjuri</masterLabel>
+            <translation><!-- Wiradjuri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Worla</masterLabel>
+            <translation><!-- Worla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Worrorra</masterLabel>
+            <translation><!-- Worrorra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wu</masterLabel>
+            <translation><!-- Wu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wubulkarra</masterLabel>
+            <translation><!-- Wubulkarra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wunambal</masterLabel>
+            <translation><!-- Wunambal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wurlaki</masterLabel>
+            <translation><!-- Wurlaki --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yakuy, nec</masterLabel>
+            <translation><!-- Yakuy, nec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yan-nhangu</masterLabel>
+            <translation><!-- Yan-nhangu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yankunytjatjara</masterLabel>
+            <translation><!-- Yankunytjatjara --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yanyuwa</masterLabel>
+            <translation><!-- Yanyuwa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yawuru</masterLabel>
+            <translation><!-- Yawuru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yiddish</masterLabel>
+            <translation><!-- Yiddish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yidiny</masterLabel>
+            <translation><!-- Yidiny --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yindjibarndi</masterLabel>
+            <translation><!-- Yindjibarndi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yinhawangka</masterLabel>
+            <translation><!-- Yinhawangka --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yorta Yorta</masterLabel>
+            <translation><!-- Yorta Yorta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yugambeh</masterLabel>
+            <translation><!-- Yugambeh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yulparija</masterLabel>
+            <translation><!-- Yulparija --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yumplatok (Torres Strait Creole)</masterLabel>
+            <translation><!-- Yumplatok (Torres Strait Creole) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yupangathi</masterLabel>
+            <translation><!-- Yupangathi --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>
